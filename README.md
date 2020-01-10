@@ -19,7 +19,3 @@ Microfisher.Snowflake.Web ： 界面层，你懂的
 2.按照界面层中的appsettings.json配置Mysql、Redis连接字符串，Rabbitmq可以不用配置。
 
 3.启动网站，创建账号、登陆、退出试试。
-
-![界面预览](
-https://raw.githubusercontent.com/microfisher/Identity-Micro-Service/master/snapshot.jpg)
-
