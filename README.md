@@ -32,10 +32,10 @@
 
 ## 类库介绍
 
-Microfisher.Snowflake.Core ：公共类库
+Microfisher.Snowflake.Core ：公共类库，包含一些常用Helper、Http请求时间统计等。
 
-Microfisher.Snowflake.Data ：数据层，使用仓库模式实现的高性能增删改查
+Microfisher.Snowflake.Data ：数据层，使用仓库模式实现的高性能增删改查。
 
-Microfisher.Snowflake.Services ：业务层，封装项目核心逻辑
+Microfisher.Snowflake.Services ：业务层，封装项目核心逻辑。
 
-Microfisher.Snowflake.Web ： 界面层，你懂的
+Microfisher.Snowflake.Web ： 界面层，你懂的。
