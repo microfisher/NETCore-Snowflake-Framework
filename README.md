@@ -4,13 +4,13 @@
 
 ## 类库介绍
 
-Microfisher.Snowflake.Core
+Microfisher.Snowflake.Core ：公共类库
 
-Microfisher.Snowflake.Data
+Microfisher.Snowflake.Data ：数据层，使用仓库模式实现的高性能增删改查
 
-Microfisher.Snowflake.Services
+Microfisher.Snowflake.Services ：业务层，封装项目核心逻辑
 
-Microfisher.Snowflake.Web
+Microfisher.Snowflake.Web ： 界面层，你懂的
 
 ## 其他辅助
 
