@@ -19,3 +19,24 @@ Microfisher.Snowflake.Web ： 界面层，你懂的
 2.按照界面层中的appsettings.json配置Mysql、Redis连接字符串，Rabbitmq可以不用配置。
 
 3.启动网站，创建账号、登陆、退出试试。
+
+## Docker安装
+
+1.创建容器互通的网桥：docker network create starnet
+
+2.打开界面层下的Dockerfile用命令编译成镜像包：docker build -t microfisher/snowflake -f Dockerfile .
+
+3.运行镜像包：docker run -d --restart always -p 10000:10000 --name microfisher/snowflake --network starnet  microfisher/snowflake:latest
+
+4.打开本地电脑的10000端口查看网站。
+
+## Centos服务安装
+
+1.将界面层下的snowflake.service文件拷贝至Centos服务器的/etc/systemd/system下。
+
+2.执行：systemctl enable snowflake.service
+
+3.执行：systemctl start snowflake.service
+
+4.打开你服务器的10000端口查看网站。
+
