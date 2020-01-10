@@ -12,7 +12,13 @@ Microfisher.Snowflake.Services ：业务层，封装项目核心逻辑
 
 Microfisher.Snowflake.Web ： 界面层，你懂的
 
-## 其他辅助
+## 如何使用
+
+1.打开数据层下边的Schemes文件夹，在Mysql里新建Snowflake数据库并执行SQL文件。
+
+2.按照界面层中的appsettings.json配置Mysql、Redis连接字符串，Rabbitmq可以不用配置。
+
+3.启动网站，创建账号、登陆、退出试试。
 
 ![界面预览](
 https://raw.githubusercontent.com/microfisher/Identity-Micro-Service/master/snapshot.jpg)
