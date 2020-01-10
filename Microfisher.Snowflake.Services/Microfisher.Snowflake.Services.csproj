@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DocumentationFile>bin\Debug\netcoreapp3.1\Microfisher.Snowflake.Services.xml</DocumentationFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Microfisher.Snowflake.Core\Microfisher.Snowflake.Core.csproj" />
+    <ProjectReference Include="..\Microfisher.Snowflake.Data\Microfisher.Snowflake.Data.csproj" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,146 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/wesley/Documents/Development/NETCore/Github/Snowflake/Microfisher.Snowflake.Data/Microfisher.Snowflake.Data.csproj": {}
+  },
+  "projects": {
+    "/Users/wesley/Documents/Development/NETCore/Github/Snowflake/Microfisher.Snowflake.Core/Microfisher.Snowflake.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/wesley/Documents/Development/NETCore/Github/Snowflake/Microfisher.Snowflake.Core/Microfisher.Snowflake.Core.csproj",
+        "projectName": "Microfisher.Snowflake.Core",
+        "projectPath": "/Users/wesley/Documents/Development/NETCore/Github/Snowflake/Microfisher.Snowflake.Core/Microfisher.Snowflake.Core.csproj",
+        "packagesPath": "/Users/wesley/.nuget/packages/",
+        "outputPath": "/Users/wesley/Documents/Development/NETCore/Github/Snowflake/Microfisher.Snowflake.Core/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/wesley/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "CSRedisCore": {
+              "target": "Package",
+              "version": "[3.3.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Microsoft.AspNetCore.Authorization": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Microsoft.AspNetCore.Http": {
+              "target": "Package",
+              "version": "[2.2.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/wesley/Documents/Development/NETCore/Github/Snowflake/Microfisher.Snowflake.Data/Microfisher.Snowflake.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/wesley/Documents/Development/NETCore/Github/Snowflake/Microfisher.Snowflake.Data/Microfisher.Snowflake.Data.csproj",
+        "projectName": "Microfisher.Snowflake.Data",
+        "projectPath": "/Users/wesley/Documents/Development/NETCore/Github/Snowflake/Microfisher.Snowflake.Data/Microfisher.Snowflake.Data.csproj",
+        "packagesPath": "/Users/wesley/.nuget/packages/",
+        "outputPath": "/Users/wesley/Documents/Development/NETCore/Github/Snowflake/Microfisher.Snowflake.Data/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/wesley/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "/Users/wesley/Documents/Development/NETCore/Github/Snowflake/Microfisher.Snowflake.Core/Microfisher.Snowflake.Core.csproj": {
+                "projectPath": "/Users/wesley/Documents/Development/NETCore/Github/Snowflake/Microfisher.Snowflake.Core/Microfisher.Snowflake.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.30, )"
+            },
+            "MySqlConnector": {
+              "target": "Package",
+              "version": "[0.61.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

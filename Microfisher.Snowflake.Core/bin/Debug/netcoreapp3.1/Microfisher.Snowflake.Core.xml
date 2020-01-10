@@ -1,0 +1,303 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Microfisher.Snowflake.Core</name>
+    </assembly>
+    <members>
+        <member name="F:Microfisher.Snowflake.Core.Enums.LevelEnum.Guest">
+            <summary>
+            逍遥游客
+            </summary>
+        </member>
+        <member name="F:Microfisher.Snowflake.Core.Enums.LevelEnum.Beginner">
+            <summary>
+            儋石之储（初级）
+            </summary>
+        </member>
+        <member name="F:Microfisher.Snowflake.Core.Enums.LevelEnum.Elementary">
+            <summary>
+            家累千金（普通）
+            </summary>
+        </member>
+        <member name="F:Microfisher.Snowflake.Core.Enums.LevelEnum.Intermediate">
+            <summary>
+            堆金叠玉（中级）
+            </summary>
+        </member>
+        <member name="F:Microfisher.Snowflake.Core.Enums.LevelEnum.Advanced">
+            <summary>
+            富可敌国（高级）
+            </summary>
+        </member>
+        <member name="F:Microfisher.Snowflake.Core.Enums.LevelEnum.Supervisor">
+            <summary>
+            资料检查员
+            </summary>
+        </member>
+        <member name="F:Microfisher.Snowflake.Core.Enums.LevelEnum.Manager">
+            <summary>
+            普通管理员
+            </summary>
+        </member>
+        <member name="F:Microfisher.Snowflake.Core.Enums.LevelEnum.Director">
+            <summary>
+            系统管理员
+            </summary>
+        </member>
+        <member name="P:Microfisher.Snowflake.Core.Responses.IResultObject.Status">
+            <summary>
+            返回状态
+            </summary>
+        </member>
+        <member name="P:Microfisher.Snowflake.Core.Responses.IResultObject.Data">
+            <summary>
+            返回消息
+            </summary>
+        </member>
+        <member name="P:Microfisher.Snowflake.Core.Responses.IResultObject`1.Status">
+            <summary>
+            返回状态
+            </summary>
+        </member>
+        <member name="P:Microfisher.Snowflake.Core.Responses.IResultObject`1.Data">
+            <summary>
+            返回消息
+            </summary>
+        </member>
+        <member name="P:Microfisher.Snowflake.Core.Responses.ResultObject.Status">
+            <summary>
+            返回状态
+            </summary>
+        </member>
+        <member name="P:Microfisher.Snowflake.Core.Responses.ResultObject.Data">
+            <summary>
+            返回消息
+            </summary>
+        </member>
+        <member name="P:Microfisher.Snowflake.Core.Responses.ResultObject`1.Status">
+            <summary>
+            返回状态
+            </summary>
+        </member>
+        <member name="P:Microfisher.Snowflake.Core.Responses.ResultObject`1.Data">
+            <summary>
+            返回消息
+            </summary>
+        </member>
+        <member name="M:Microfisher.Snowflake.Core.Utilities.ContextHelper.GetClientIP(Microsoft.AspNetCore.Http.IHttpContextAccessor)">
+            <summary>
+            获取客户端IP
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Microfisher.Snowflake.Core.Utilities.ContextHelper.GetHostUrl(Microsoft.AspNetCore.Http.IHttpContextAccessor,System.Boolean,System.Boolean)">
+            <summary>
+            获取当前网址
+            </summary>
+        </member>
+        <member name="M:Microfisher.Snowflake.Core.Utilities.ConvertHelper.Round(System.Decimal,System.Int32)">
+            <summary>
+            四舍五入
+            </summary>
+        </member>
+        <member name="M:Microfisher.Snowflake.Core.Utilities.EncryptHelper.RandomKey(System.Int64,System.Int32,System.Boolean)">
+            <summary>
+            按ID生成随机码
+            </summary>
+        </member>
+        <member name="M:Microfisher.Snowflake.Core.Utilities.EncryptHelper.UrlEncode(System.String)">
+            <summary>
+            URL加密
+            </summary>
+        </member>
+        <member name="M:Microfisher.Snowflake.Core.Utilities.EncryptHelper.Md5Encrypt(System.String)">
+            <summary>
+            MD5加密字符串
+            </summary>
+        </member>
+        <member name="M:Microfisher.Snowflake.Core.Utilities.EncryptHelper.Sha256Encrypt(System.String)">
+            <summary>
+            Sha256加密字符串
+            </summary>
+        </member>
+        <member name="M:Microfisher.Snowflake.Core.Utilities.EncryptHelper.HmacSha256Encrypt(System.String,System.String)">
+            <summary>
+            HmacSha256加密
+            </summary>
+        </member>
+        <member name="M:Microfisher.Snowflake.Core.Utilities.EncryptHelper.Base32Encrypt(System.String)">
+            <summary>
+            Base32加密
+            </summary>
+        </member>
+        <member name="M:Microfisher.Snowflake.Core.Utilities.EncryptHelper.Base32Decrypt(System.String)">
+            <summary>
+            Base32解密
+            </summary>
+        </member>
+        <member name="M:Microfisher.Snowflake.Core.Utilities.EncryptHelper.Base64Encrypt(System.String)">
+            <summary>
+            Base64加密
+            </summary>
+        </member>
+        <member name="M:Microfisher.Snowflake.Core.Utilities.EncryptHelper.Base64Decrypt(System.String)">
+            <summary>
+            Base64解密
+            </summary>
+        </member>
+        <member name="M:Microfisher.Snowflake.Core.Utilities.EncryptHelper.AESEncrypt(System.String,System.String)">
+            <summary>
+            AES加密
+            </summary>
+        </member>
+        <member name="M:Microfisher.Snowflake.Core.Utilities.EncryptHelper.AESDecrypt(System.String,System.String)">
+            <summary>
+            AES解密
+            </summary>
+        </member>
+        <member name="M:Microfisher.Snowflake.Core.Utilities.EnviormentHelper.GetLocalIP">
+            <summary>
+            获取本地IP
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Microfisher.Snowflake.Core.Utilities.ExceptionHelper.Throw(System.String)">
+            <summary>
+            抛出消息
+            </summary>
+            <param name="message"></param>
+        </member>
+        <member name="M:Microfisher.Snowflake.Core.Utilities.ExceptionHelper.Throw(System.Exception)">
+            <summary>
+            抛出异常
+            </summary>
+            <param name="ex"></param>
+        </member>
+        <member name="M:Microfisher.Snowflake.Core.Utilities.JsonHelper.Deserialize``1(System.String)">
+            <summary>
+            反序列化对象
+            </summary>
+        </member>
+        <member name="M:Microfisher.Snowflake.Core.Utilities.JsonHelper.Serialize``1(``0)">
+            <summary>
+            序列化对象
+            </summary>
+        </member>
+        <member name="M:Microfisher.Snowflake.Core.Utilities.TextHelper.IPAddressToNumber(System.String)">
+            <summary>
+            IP字符串转整数
+            </summary>
+        </member>
+        <member name="M:Microfisher.Snowflake.Core.Utilities.TextHelper.NumberToIPAddress(System.Int64)">
+            <summary>
+            整数转IP字符串
+            </summary>
+        </member>
+        <member name="M:Microfisher.Snowflake.Core.Utilities.TextHelper.HtmlEncode(System.String)">
+            <summary>
+            HTML编码
+            </summary>
+        </member>
+        <member name="M:Microfisher.Snowflake.Core.Utilities.TextHelper.HtmlDecode(System.String)">
+            <summary>
+            HTML解码
+            </summary>
+        </member>
+        <member name="M:Microfisher.Snowflake.Core.Utilities.TextHelper.GetLength(System.String)">
+            <summary>
+            获取字符数量，中文算两个
+            </summary>
+        </member>
+        <member name="M:Microfisher.Snowflake.Core.Utilities.TextHelper.GetHideIP(System.String)">
+            <summary>
+            隐藏IP后两位
+            </summary>
+        </member>
+        <member name="M:Microfisher.Snowflake.Core.Utilities.TextHelper.GetNumber(System.String)">
+            <summary>
+            获取字符串中的数字
+            </summary>
+        </member>
+        <member name="M:Microfisher.Snowflake.Core.Utilities.TwoFactorHelper.GetFactorUrl(System.String,System.String,System.String)">
+            <summary>
+            生成安装二维码Url
+            </summary>
+            <param name="issuer">网站域名</param>
+            <param name="account">用户账号</param>
+            <param name="secretKey">用户密钥</param>
+        </member>
+        <member name="M:Microfisher.Snowflake.Core.Utilities.TwoFactorHelper.ValidateCode(System.Int32,System.String)">
+            <summary>
+            验证双因素码
+            </summary>
+            <param name="code">用户app端生成的6位验证码</param>
+            <param name="secretKey">网站保存的用户密钥</param>
+            <returns></returns>
+        </member>
+        <member name="M:Microfisher.Snowflake.Core.Utilities.TwoFactorHelper.ComputeHash(System.String,System.Int64,System.Int32)">
+            <summary>
+            Google哈希
+            </summary>
+        </member>
+        <member name="M:Microfisher.Snowflake.Core.Utilities.ValidateHelper.IsNumeric(System.String)">
+            <summary>
+            验证数字
+            </summary>
+        </member>
+        <member name="M:Microfisher.Snowflake.Core.Utilities.ValidateHelper.IsUserName(System.String)">
+            <summary>
+            验证帐号（帐号只能是英文字符及数字组合）
+            </summary>
+        </member>
+        <member name="M:Microfisher.Snowflake.Core.Utilities.ValidateHelper.IsReferrer(System.String)">
+            <summary>
+            邀请码
+            </summary>
+        </member>
+        <member name="M:Microfisher.Snowflake.Core.Utilities.ValidateHelper.IsPaySecret(System.String)">
+            <summary>
+            交易密码
+            </summary>
+        </member>
+        <member name="M:Microfisher.Snowflake.Core.Utilities.ValidateHelper.IsPassword(System.String)">
+            <summary>
+            登录密码（一定要字母和数字组合）
+            </summary>
+        </member>
+        <member name="M:Microfisher.Snowflake.Core.Utilities.ValidateHelper.IsNickName(System.String)">
+            <summary>
+            验证昵称（昵称只能为汉字、数字、字符、下划线）
+            </summary>
+        </member>
+        <member name="M:Microfisher.Snowflake.Core.Utilities.ValidateHelper.IsIDNumber(System.String)">
+            <summary>
+            验证ID（ID只能为、字母、数字、下划线）
+            </summary>
+        </member>
+        <member name="M:Microfisher.Snowflake.Core.Utilities.ValidateHelper.IsEmail(System.String)">
+            <summary>
+            验证邮箱（符合邮箱一般规则）
+            </summary>
+        </member>
+        <member name="M:Microfisher.Snowflake.Core.Utilities.ValidateHelper.IsPhoneNumber(System.String)">
+            <summary>
+            验证电话号码
+            </summary>
+        </member>
+        <member name="M:Microfisher.Snowflake.Core.Utilities.ValidateHelper.IsWeakPassword(System.String)">
+            <summary>
+            验证弱密码
+            </summary>
+        </member>
+        <member name="M:Microfisher.Snowflake.Core.Utilities.ValidateHelper.IsIPv4(System.String)">
+            <summary>
+            验证IPV4
+            </summary>
+        </member>
+        <member name="M:Microfisher.Snowflake.Core.Utilities.ValidateHelper.IsIPv6(System.String)">
+            <summary>  
+            验证IPv6地址  
+            </summary>  
+        </member>
+    </members>
+</doc>

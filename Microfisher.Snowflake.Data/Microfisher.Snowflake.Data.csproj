@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DocumentationFile>bin\Debug\netcoreapp3.1\Microfisher.Snowflake.Data.xml</DocumentationFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="2.0.30" />
+    <PackageReference Include="MySqlConnector" Version="0.61.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Microfisher.Snowflake.Core\Microfisher.Snowflake.Core.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Schemes\identity.struct.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Schemes\" />
+  </ItemGroup>
+</Project>
