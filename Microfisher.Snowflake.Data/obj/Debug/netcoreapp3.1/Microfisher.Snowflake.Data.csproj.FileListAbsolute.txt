@@ -24,3 +24,16 @@
 /Users/wesley/Documents/Development/NETCore/Github/Snowflake/Microfisher.Snowflake.Data/obj/Debug/netcoreapp3.1/Microfisher.Snowflake.Data.csproj.CopyComplete
 /Users/wesley/Documents/Development/NETCore/Github/Snowflake/Microfisher.Snowflake.Data/obj/Debug/netcoreapp3.1/Microfisher.Snowflake.Data.dll
 /Users/wesley/Documents/Development/NETCore/Github/Snowflake/Microfisher.Snowflake.Data/obj/Debug/netcoreapp3.1/Microfisher.Snowflake.Data.pdb
+/Users/wesley/Documents/Development/NETCore/Github/Identity-Micro-Service/Microfisher.Snowflake.Data/bin/Debug/netcoreapp3.1/Microfisher.Snowflake.Data.xml
+/Users/wesley/Documents/Development/NETCore/Github/Identity-Micro-Service/Microfisher.Snowflake.Data/bin/Debug/netcoreapp3.1/Microfisher.Snowflake.Data.deps.json
+/Users/wesley/Documents/Development/NETCore/Github/Identity-Micro-Service/Microfisher.Snowflake.Data/bin/Debug/netcoreapp3.1/Microfisher.Snowflake.Data.dll
+/Users/wesley/Documents/Development/NETCore/Github/Identity-Micro-Service/Microfisher.Snowflake.Data/bin/Debug/netcoreapp3.1/Microfisher.Snowflake.Data.pdb
+/Users/wesley/Documents/Development/NETCore/Github/Identity-Micro-Service/Microfisher.Snowflake.Data/bin/Debug/netcoreapp3.1/Microfisher.Snowflake.Core.dll
+/Users/wesley/Documents/Development/NETCore/Github/Identity-Micro-Service/Microfisher.Snowflake.Data/bin/Debug/netcoreapp3.1/Microfisher.Snowflake.Core.pdb
+/Users/wesley/Documents/Development/NETCore/Github/Identity-Micro-Service/Microfisher.Snowflake.Data/bin/Debug/netcoreapp3.1/Microfisher.Snowflake.Core.xml
+/Users/wesley/Documents/Development/NETCore/Github/Identity-Micro-Service/Microfisher.Snowflake.Data/obj/Debug/netcoreapp3.1/Microfisher.Snowflake.Data.csprojAssemblyReference.cache
+/Users/wesley/Documents/Development/NETCore/Github/Identity-Micro-Service/Microfisher.Snowflake.Data/obj/Debug/netcoreapp3.1/Microfisher.Snowflake.Data.AssemblyInfoInputs.cache
+/Users/wesley/Documents/Development/NETCore/Github/Identity-Micro-Service/Microfisher.Snowflake.Data/obj/Debug/netcoreapp3.1/Microfisher.Snowflake.Data.AssemblyInfo.cs
+/Users/wesley/Documents/Development/NETCore/Github/Identity-Micro-Service/Microfisher.Snowflake.Data/obj/Debug/netcoreapp3.1/Microfisher.Snowflake.Data.csproj.CopyComplete
+/Users/wesley/Documents/Development/NETCore/Github/Identity-Micro-Service/Microfisher.Snowflake.Data/obj/Debug/netcoreapp3.1/Microfisher.Snowflake.Data.dll
+/Users/wesley/Documents/Development/NETCore/Github/Identity-Micro-Service/Microfisher.Snowflake.Data/obj/Debug/netcoreapp3.1/Microfisher.Snowflake.Data.pdb

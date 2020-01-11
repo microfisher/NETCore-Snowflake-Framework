@@ -11,4 +11,11 @@
     <ProjectReference Include="..\Microfisher.Snowflake.Core\Microfisher.Snowflake.Core.csproj" />
     <ProjectReference Include="..\Microfisher.Snowflake.Data\Microfisher.Snowflake.Data.csproj" />
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Permissions\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="CSRedisCore" Version="3.3.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="3.1.0" />
+  </ItemGroup>
 </Project>

@@ -194,3 +194,8 @@
 2020-01-10 22:17:55.9819 Info Adding target ConsoleTarget(Name=console)
 2020-01-10 22:17:56.0131 Info Adding target FileTarget(Name=file)
 2020-01-10 22:17:56.1399 Info Found 27 configuration items
+2020-01-11 18:03:53.7938 Info Message Template Auto Format enabled
+2020-01-11 18:03:53.8190 Info Loading assembly: NLog.Web.AspNetCore
+2020-01-11 18:03:53.8959 Info Adding target ConsoleTarget(Name=console)
+2020-01-11 18:03:53.9371 Info Adding target FileTarget(Name=file)
+2020-01-11 18:03:54.0177 Info Found 27 configuration items

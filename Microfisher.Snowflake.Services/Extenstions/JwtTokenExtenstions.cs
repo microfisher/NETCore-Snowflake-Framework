@@ -4,7 +4,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Microfisher.Snowflake.Core.Configurations;
 using Microfisher.Snowflake.Core.Enums;
-using Microfisher.Snowflake.Core.Permissions;
+using Microfisher.Snowflake.Services.Permissions;
 using Microfisher.Snowflake.Core.Responses;
 using Microfisher.Snowflake.Core.Utilities;
 using Microsoft.AspNetCore.Authentication.JwtBearer;

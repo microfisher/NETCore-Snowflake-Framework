@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/wesley/Documents/Development/NETCore/Github/Snowflake/Microfisher.Snowflake.Core/Microfisher.Snowflake.Core.csproj": {}
+    "/Users/wesley/Documents/Development/NETCore/Github/Identity-Micro-Service/Microfisher.Snowflake.Core/Microfisher.Snowflake.Core.csproj": {}
   },
   "projects": {
-    "/Users/wesley/Documents/Development/NETCore/Github/Snowflake/Microfisher.Snowflake.Core/Microfisher.Snowflake.Core.csproj": {
+    "/Users/wesley/Documents/Development/NETCore/Github/Identity-Micro-Service/Microfisher.Snowflake.Core/Microfisher.Snowflake.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/wesley/Documents/Development/NETCore/Github/Snowflake/Microfisher.Snowflake.Core/Microfisher.Snowflake.Core.csproj",
+        "projectUniqueName": "/Users/wesley/Documents/Development/NETCore/Github/Identity-Micro-Service/Microfisher.Snowflake.Core/Microfisher.Snowflake.Core.csproj",
         "projectName": "Microfisher.Snowflake.Core",
-        "projectPath": "/Users/wesley/Documents/Development/NETCore/Github/Snowflake/Microfisher.Snowflake.Core/Microfisher.Snowflake.Core.csproj",
+        "projectPath": "/Users/wesley/Documents/Development/NETCore/Github/Identity-Micro-Service/Microfisher.Snowflake.Core/Microfisher.Snowflake.Core.csproj",
         "packagesPath": "/Users/wesley/.nuget/packages/",
-        "outputPath": "/Users/wesley/Documents/Development/NETCore/Github/Snowflake/Microfisher.Snowflake.Core/obj/",
+        "outputPath": "/Users/wesley/Documents/Development/NETCore/Github/Identity-Micro-Service/Microfisher.Snowflake.Core/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
@@ -39,21 +39,13 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
-            "CSRedisCore": {
-              "target": "Package",
-              "version": "[3.3.0, )"
-            },
-            "Microsoft.AspNetCore.Authentication.JwtBearer": {
-              "target": "Package",
-              "version": "[3.1.0, )"
-            },
-            "Microsoft.AspNetCore.Authorization": {
-              "target": "Package",
-              "version": "[3.1.0, )"
-            },
             "Microsoft.AspNetCore.Http": {
               "target": "Package",
               "version": "[2.2.2, )"
+            },
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[3.1.0, )"
             }
           },
           "imports": [

@@ -1,6 +1,5 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
-using Microfisher.Snowflake.Core.Utilities;
 
 namespace Microfisher.Snowflake.Services.Dtos
 {
