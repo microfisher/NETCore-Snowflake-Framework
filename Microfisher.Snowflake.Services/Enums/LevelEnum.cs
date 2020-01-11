@@ -1,5 +1,5 @@
 ﻿using System;
-namespace Microfisher.Snowflake.Core.Enums
+namespace Microfisher.Snowflake.Services.Enums
 {
     public enum LevelEnum
     {

@@ -1,5 +1,5 @@
 ﻿using System;
-using Microfisher.Snowflake.Core.Enums;
+using Microfisher.Snowflake.Services.Enums;
 using Microsoft.AspNetCore.Authorization;
 
 namespace Microfisher.Snowflake.Services.Permissions

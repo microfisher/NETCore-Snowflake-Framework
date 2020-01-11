@@ -8,7 +8,7 @@ using Microfisher.Snowflake.Core.Utilities;
 using Microfisher.Snowflake.Core.Responses;
 using Microfisher.Snowflake.Core.Extensions;
 using Microfisher.Snowflake.Data.Repositories;
-using Microfisher.Snowflake.Core.Enums;
+using Microfisher.Snowflake.Services.Enums;
 using Microfisher.Snowflake.Services.Models;
 using Microfisher.Snowflake.Services.Interfaces;
 using System.IdentityModel.Tokens.Jwt;

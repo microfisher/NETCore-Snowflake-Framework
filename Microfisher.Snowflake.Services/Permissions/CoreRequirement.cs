@@ -1,6 +1,6 @@
 ﻿using System;
 using Microfisher.Snowflake.Core.Configurations;
-using Microfisher.Snowflake.Core.Enums;
+using Microfisher.Snowflake.Services.Enums;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.Extensions.Options;
 

@@ -69,49 +69,49 @@
             用户密码
             </summary>
         </member>
-        <member name="M:Microfisher.Snowflake.Services.Extenstions.ServiceExtensions.AddService(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microfisher.Snowflake.Core.Configurations.AppSetting)">
-            <summary>
-            注册服务
-            </summary>
-        </member>
-        <member name="F:Microfisher.Snowflake.Core.Enums.LevelEnum.Guest">
+        <member name="F:Microfisher.Snowflake.Services.Enums.LevelEnum.Guest">
             <summary>
             逍遥游客
             </summary>
         </member>
-        <member name="F:Microfisher.Snowflake.Core.Enums.LevelEnum.Beginner">
+        <member name="F:Microfisher.Snowflake.Services.Enums.LevelEnum.Beginner">
             <summary>
             儋石之储（初级）
             </summary>
         </member>
-        <member name="F:Microfisher.Snowflake.Core.Enums.LevelEnum.Elementary">
+        <member name="F:Microfisher.Snowflake.Services.Enums.LevelEnum.Elementary">
             <summary>
             家累千金（普通）
             </summary>
         </member>
-        <member name="F:Microfisher.Snowflake.Core.Enums.LevelEnum.Intermediate">
+        <member name="F:Microfisher.Snowflake.Services.Enums.LevelEnum.Intermediate">
             <summary>
             堆金叠玉（中级）
             </summary>
         </member>
-        <member name="F:Microfisher.Snowflake.Core.Enums.LevelEnum.Advanced">
+        <member name="F:Microfisher.Snowflake.Services.Enums.LevelEnum.Advanced">
             <summary>
             富可敌国（高级）
             </summary>
         </member>
-        <member name="F:Microfisher.Snowflake.Core.Enums.LevelEnum.Supervisor">
+        <member name="F:Microfisher.Snowflake.Services.Enums.LevelEnum.Supervisor">
             <summary>
             资料检查员
             </summary>
         </member>
-        <member name="F:Microfisher.Snowflake.Core.Enums.LevelEnum.Manager">
+        <member name="F:Microfisher.Snowflake.Services.Enums.LevelEnum.Manager">
             <summary>
             普通管理员
             </summary>
         </member>
-        <member name="F:Microfisher.Snowflake.Core.Enums.LevelEnum.Director">
+        <member name="F:Microfisher.Snowflake.Services.Enums.LevelEnum.Director">
             <summary>
             系统管理员
+            </summary>
+        </member>
+        <member name="M:Microfisher.Snowflake.Services.Extenstions.ServiceExtensions.AddService(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microfisher.Snowflake.Core.Configurations.AppSetting)">
+            <summary>
+            注册服务
             </summary>
         </member>
     </members>
