@@ -2,7 +2,7 @@
 using System.IO.Compression;
 using CSRedis;
 using Microfisher.Snowflake.Core.Configurations;
-using Microfisher.Snowflake.Core.Repositories;
+using Microfisher.Snowflake.Data.Repositories;
 using Microfisher.Snowflake.Data;
 using Microfisher.Snowflake.Data.Entities;
 using Microfisher.Snowflake.Data.Repositories;

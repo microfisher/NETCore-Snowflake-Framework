@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Microfisher.Snowflake.Core.Models
+namespace Microfisher.Snowflake.Services.Models
 {
     public class Paging<T>
     {

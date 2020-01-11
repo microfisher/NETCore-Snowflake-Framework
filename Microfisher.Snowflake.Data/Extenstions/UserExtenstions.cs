@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Threading.Tasks;
 using Dapper;
-using Microfisher.Snowflake.Core.Repositories;
+using Microfisher.Snowflake.Data.Repositories;
 using Microfisher.Snowflake.Data.Entities;
 
 namespace Microfisher.Snowflake.Data.Extenstions

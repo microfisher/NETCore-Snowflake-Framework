@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Dapper;
-using Microfisher.Snowflake.Core.Repositories;
+using Microfisher.Snowflake.Data.Repositories;
 using Microfisher.Snowflake.Core.Utilities;
 
 namespace Microfisher.Snowflake.Data.Repositories

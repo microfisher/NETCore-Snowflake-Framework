@@ -116,7 +116,6 @@
 /Users/wesley/Documents/Development/NETCore/Github/Identity-Micro-Service/Microfisher.Snowflake.Web/bin/Debug/netcoreapp3.1/Microfisher.Snowflake.Core.xml
 /Users/wesley/Documents/Development/NETCore/Github/Identity-Micro-Service/Microfisher.Snowflake.Web/bin/Debug/netcoreapp3.1/Microfisher.Snowflake.Data.pdb
 /Users/wesley/Documents/Development/NETCore/Github/Identity-Micro-Service/Microfisher.Snowflake.Web/bin/Debug/netcoreapp3.1/Microfisher.Snowflake.Data.xml
-/Users/wesley/Documents/Development/NETCore/Github/Identity-Micro-Service/Microfisher.Snowflake.Web/obj/Debug/netcoreapp3.1/Microfisher.Snowflake.Web.csprojAssemblyReference.cache
 /Users/wesley/Documents/Development/NETCore/Github/Identity-Micro-Service/Microfisher.Snowflake.Web/obj/Debug/netcoreapp3.1/staticwebassets/Microfisher.Snowflake.Web.StaticWebAssets.Manifest.cache
 /Users/wesley/Documents/Development/NETCore/Github/Identity-Micro-Service/Microfisher.Snowflake.Web/obj/Debug/netcoreapp3.1/staticwebassets/Microfisher.Snowflake.Web.StaticWebAssets.xml
 /Users/wesley/Documents/Development/NETCore/Github/Identity-Micro-Service/Microfisher.Snowflake.Web/obj/Debug/netcoreapp3.1/Microfisher.Snowflake.Web.MvcApplicationPartsAssemblyInfo.cs

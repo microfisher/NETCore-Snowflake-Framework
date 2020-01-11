@@ -199,3 +199,61 @@
 2020-01-11 18:03:53.8959 Info Adding target ConsoleTarget(Name=console)
 2020-01-11 18:03:53.9371 Info Adding target FileTarget(Name=file)
 2020-01-11 18:03:54.0177 Info Found 27 configuration items
+2020-01-11 18:10:13.5423 Info Configuration file change detected! Reloading in 1000ms...
+2020-01-11 18:10:13.5438 Info Configuration file change detected! Reloading in 1000ms...
+2020-01-11 18:10:13.5438 Info Configuration file change detected! Reloading in 1000ms...
+2020-01-11 18:10:14.5462 Info Reloading configuration...
+2020-01-11 18:10:14.5501 Info Configuring from an XML element in /Users/wesley/Documents/Development/NETCore/Github/Identity-Micro-Service/Microfisher.Snowflake.Web/bin/Debug/netcoreapp3.1/nlog.config...
+2020-01-11 18:10:14.5512 Info Message Template Auto Format enabled
+2020-01-11 18:10:14.5512 Info Loading assembly: NLog.Web.AspNetCore
+2020-01-11 18:10:14.5531 Info Adding target ConsoleTarget(Name=console)
+2020-01-11 18:10:14.5538 Info Adding target FileTarget(Name=file)
+2020-01-11 18:10:14.5561 Info Closing old configuration.
+2020-01-11 18:10:14.6142 Info Found 27 configuration items
+2020-01-11 18:26:14.8937 Info Configuration file change detected! Reloading in 1000ms...
+2020-01-11 18:26:14.8952 Info Configuration file change detected! Reloading in 1000ms...
+2020-01-11 18:26:15.8972 Info Reloading configuration...
+2020-01-11 18:26:15.9003 Info Configuring from an XML element in /Users/wesley/Documents/Development/NETCore/Github/Identity-Micro-Service/Microfisher.Snowflake.Web/bin/Debug/netcoreapp3.1/nlog.config...
+2020-01-11 18:26:15.9022 Info Message Template Auto Format enabled
+2020-01-11 18:26:15.9031 Info Loading assembly: NLog.Web.AspNetCore
+2020-01-11 18:26:15.9057 Info Adding target ConsoleTarget(Name=console)
+2020-01-11 18:26:15.9065 Info Adding target FileTarget(Name=file)
+2020-01-11 18:26:15.9072 Info Closing old configuration.
+2020-01-11 18:26:15.9775 Info Found 27 configuration items
+2020-01-11 18:26:17.7065 Info Configuration file change detected! Reloading in 1000ms...
+2020-01-11 18:26:18.7106 Info Reloading configuration...
+2020-01-11 18:26:18.7239 Warn NLog configuration failed to reload Exception: System.IO.FileNotFoundException: Could not find file '/Users/wesley/Documents/Development/NETCore/Github/Identity-Micro-Service/Microfisher.Snowflake.Web/bin/Debug/netcoreapp3.1/nlog.config'.
+File name: '/Users/wesley/Documents/Development/NETCore/Github/Identity-Micro-Service/Microfisher.Snowflake.Web/bin/Debug/netcoreapp3.1/nlog.config'
+   at Interop.ThrowExceptionForIoErrno(ErrorInfo errorInfo, String path, Boolean isDirectory, Func`2 errorRewriter)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String path, OpenFlags flags, Int32 mode)
+   at System.IO.FileStream.OpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at System.Xml.XmlDownloadManager.GetStream(Uri uri, ICredentials credentials, IWebProxy proxy, RequestCachePolicy cachePolicy)
+   at System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   at System.Xml.XmlTextReaderImpl.FinishInitUriString()
+   at System.Xml.XmlTextReaderImpl..ctor(String uriStr, XmlReaderSettings settings, XmlParserContext context, XmlResolver uriResolver)
+   at System.Xml.XmlReaderSettings.CreateReader(String inputUri, XmlParserContext inputContext)
+   at System.Xml.XmlReader.Create(String inputUri)
+   at NLog.Config.XmlLoggingConfiguration.CreateFileReader(String fileName)
+   at NLog.Config.XmlLoggingConfiguration..ctor(String fileName, Boolean ignoreErrors, LogFactory logFactory)
+   at NLog.Config.XmlLoggingConfiguration..ctor(String fileName, LogFactory logFactory)
+   at NLog.Config.XmlLoggingConfiguration.Reload()
+   at NLog.Config.LoggingConfiguration.ReloadNewConfig()
+   at NLog.Config.LoggingConfigurationWatchableFileLoader.ReloadConfigOnTimer(Object state)
+2020-01-11 18:26:21.6654 Info Configuration file change detected! Reloading in 1000ms...
+2020-01-11 18:26:21.6664 Info Configuration file change detected! Reloading in 1000ms...
+2020-01-11 18:26:21.6669 Info Configuration file change detected! Reloading in 1000ms...
+2020-01-11 18:26:22.6714 Info Reloading configuration...
+2020-01-11 18:26:22.6732 Info Configuring from an XML element in /Users/wesley/Documents/Development/NETCore/Github/Identity-Micro-Service/Microfisher.Snowflake.Web/bin/Debug/netcoreapp3.1/nlog.config...
+2020-01-11 18:26:22.6740 Info Message Template Auto Format enabled
+2020-01-11 18:26:22.6740 Info Loading assembly: NLog.Web.AspNetCore
+2020-01-11 18:26:22.6776 Info Adding target ConsoleTarget(Name=console)
+2020-01-11 18:26:22.6791 Info Adding target FileTarget(Name=file)
+2020-01-11 18:26:22.6791 Info Closing old configuration.
+2020-01-11 18:26:22.7431 Info Found 27 configuration items
+2020-01-11 18:26:29.4926 Info Message Template Auto Format enabled
+2020-01-11 18:26:29.5100 Info Loading assembly: NLog.Web.AspNetCore
+2020-01-11 18:26:29.5652 Info Adding target ConsoleTarget(Name=console)
+2020-01-11 18:26:29.5920 Info Adding target FileTarget(Name=file)
+2020-01-11 18:26:29.6487 Info Found 27 configuration items

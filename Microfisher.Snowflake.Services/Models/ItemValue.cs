@@ -1,5 +1,5 @@
 ﻿using System;
-namespace Microfisher.Snowflake.Core.Models
+namespace Microfisher.Snowflake.Services.Models
 {
     public class ItemValue
     {

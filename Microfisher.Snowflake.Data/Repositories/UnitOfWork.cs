@@ -5,7 +5,7 @@ using System.Data.Common;
 using System.Threading.Tasks;
 using Dapper;
 using Microfisher.Snowflake.Core.Configurations;
-using Microfisher.Snowflake.Core.Repositories;
+using Microfisher.Snowflake.Data.Repositories;
 using Microsoft.Extensions.Options;
 using MySql.Data.MySqlClient;
 

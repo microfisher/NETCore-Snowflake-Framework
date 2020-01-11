@@ -13,6 +13,8 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Permissions\" />
+    <Folder Include="Enums\" />
+    <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="CSRedisCore" Version="3.3.0" />
