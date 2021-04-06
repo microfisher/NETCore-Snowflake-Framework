@@ -2,6 +2,9 @@
 # .NET Core 多层架构
 基于.NET Core + Mysql + Redis + Dapper + Swagger + CSRedis 开发的JWT授权认证微服务，涵盖了日志、授权认证、Swagger API管理、请求时间统计等功能，Docker配置文件、服务安装文件等，便于开发项目直接使用。
 
+![EOS接龙竞拍区块链游戏](
+https://raw.githubusercontent.com/microfisher/NETCore-Multilayer-Framework/master/snapshot.jpg)
+
 ## 基本使用
 
 1.打开数据层下边的Schemes文件夹，在Mysql里新建Snowflake数据库并执行SQL文件。
