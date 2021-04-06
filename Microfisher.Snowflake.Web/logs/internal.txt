@@ -257,3 +257,8 @@ File name: '/Users/wesley/Documents/Development/NETCore/Github/Identity-Micro-Se
 2020-01-11 18:26:29.5652 Info Adding target ConsoleTarget(Name=console)
 2020-01-11 18:26:29.5920 Info Adding target FileTarget(Name=file)
 2020-01-11 18:26:29.6487 Info Found 27 configuration items
+2021-04-06 21:16:12.6745 Info Message Template Auto Format enabled
+2021-04-06 21:16:12.7090 Info Loading assembly: NLog.Web.AspNetCore
+2021-04-06 21:16:12.8084 Info Adding target ConsoleTarget(Name=console)
+2021-04-06 21:16:12.8635 Info Adding target FileTarget(Name=file)
+2021-04-06 21:16:13.0138 Info Found 27 configuration items

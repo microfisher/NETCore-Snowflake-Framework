@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/wesley/Documents/Development/NETCore/Github/Identity-Micro-Service/Microfisher.Snowflake.Services/Microfisher.Snowflake.Services.csproj": {}
+    "/Users/wesley/Documents/GitHub/NETCore-Multilayer-Framework/Microfisher.Snowflake.Services/Microfisher.Snowflake.Services.csproj": {}
   },
   "projects": {
-    "/Users/wesley/Documents/Development/NETCore/Github/Identity-Micro-Service/Microfisher.Snowflake.Core/Microfisher.Snowflake.Core.csproj": {
+    "/Users/wesley/Documents/GitHub/NETCore-Multilayer-Framework/Microfisher.Snowflake.Core/Microfisher.Snowflake.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/wesley/Documents/Development/NETCore/Github/Identity-Micro-Service/Microfisher.Snowflake.Core/Microfisher.Snowflake.Core.csproj",
+        "projectUniqueName": "/Users/wesley/Documents/GitHub/NETCore-Multilayer-Framework/Microfisher.Snowflake.Core/Microfisher.Snowflake.Core.csproj",
         "projectName": "Microfisher.Snowflake.Core",
-        "projectPath": "/Users/wesley/Documents/Development/NETCore/Github/Identity-Micro-Service/Microfisher.Snowflake.Core/Microfisher.Snowflake.Core.csproj",
+        "projectPath": "/Users/wesley/Documents/GitHub/NETCore-Multilayer-Framework/Microfisher.Snowflake.Core/Microfisher.Snowflake.Core.csproj",
         "packagesPath": "/Users/wesley/.nuget/packages/",
-        "outputPath": "/Users/wesley/Documents/Development/NETCore/Github/Identity-Micro-Service/Microfisher.Snowflake.Core/obj/",
+        "outputPath": "/Users/wesley/Documents/GitHub/NETCore-Multilayer-Framework/Microfisher.Snowflake.Core/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
@@ -20,13 +20,14 @@
           "/Users/wesley/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.1"
+          "net5.0"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp3.1": {
+          "net5.0": {
+            "targetAlias": "net5.0",
             "projectReferences": {}
           }
         },
@@ -37,7 +38,8 @@
         }
       },
       "frameworks": {
-        "netcoreapp3.1": {
+        "net5.0": {
+          "targetAlias": "net5.0",
           "dependencies": {
             "Microsoft.AspNetCore.Http": {
               "target": "Package",
@@ -45,7 +47,7 @@
             },
             "Microsoft.Extensions.Logging": {
               "target": "Package",
-              "version": "[3.1.0, )"
+              "version": "[5.0.0, )"
             }
           },
           "imports": [
@@ -63,18 +65,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.100/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.201/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/wesley/Documents/Development/NETCore/Github/Identity-Micro-Service/Microfisher.Snowflake.Data/Microfisher.Snowflake.Data.csproj": {
+    "/Users/wesley/Documents/GitHub/NETCore-Multilayer-Framework/Microfisher.Snowflake.Data/Microfisher.Snowflake.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/wesley/Documents/Development/NETCore/Github/Identity-Micro-Service/Microfisher.Snowflake.Data/Microfisher.Snowflake.Data.csproj",
+        "projectUniqueName": "/Users/wesley/Documents/GitHub/NETCore-Multilayer-Framework/Microfisher.Snowflake.Data/Microfisher.Snowflake.Data.csproj",
         "projectName": "Microfisher.Snowflake.Data",
-        "projectPath": "/Users/wesley/Documents/Development/NETCore/Github/Identity-Micro-Service/Microfisher.Snowflake.Data/Microfisher.Snowflake.Data.csproj",
+        "projectPath": "/Users/wesley/Documents/GitHub/NETCore-Multilayer-Framework/Microfisher.Snowflake.Data/Microfisher.Snowflake.Data.csproj",
         "packagesPath": "/Users/wesley/.nuget/packages/",
-        "outputPath": "/Users/wesley/Documents/Development/NETCore/Github/Identity-Micro-Service/Microfisher.Snowflake.Data/obj/",
+        "outputPath": "/Users/wesley/Documents/GitHub/NETCore-Multilayer-Framework/Microfisher.Snowflake.Data/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
@@ -83,16 +85,17 @@
           "/Users/wesley/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.1"
+          "net5.0"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp3.1": {
+          "net5.0": {
+            "targetAlias": "net5.0",
             "projectReferences": {
-              "/Users/wesley/Documents/Development/NETCore/Github/Identity-Micro-Service/Microfisher.Snowflake.Core/Microfisher.Snowflake.Core.csproj": {
-                "projectPath": "/Users/wesley/Documents/Development/NETCore/Github/Identity-Micro-Service/Microfisher.Snowflake.Core/Microfisher.Snowflake.Core.csproj"
+              "/Users/wesley/Documents/GitHub/NETCore-Multilayer-Framework/Microfisher.Snowflake.Core/Microfisher.Snowflake.Core.csproj": {
+                "projectPath": "/Users/wesley/Documents/GitHub/NETCore-Multilayer-Framework/Microfisher.Snowflake.Core/Microfisher.Snowflake.Core.csproj"
               }
             }
           }
@@ -104,15 +107,16 @@
         }
       },
       "frameworks": {
-        "netcoreapp3.1": {
+        "net5.0": {
+          "targetAlias": "net5.0",
           "dependencies": {
             "Dapper": {
               "target": "Package",
-              "version": "[2.0.30, )"
+              "version": "[2.0.78, )"
             },
-            "MySqlConnector": {
+            "MySql.Data": {
               "target": "Package",
-              "version": "[0.61.0, )"
+              "version": "[8.0.23, )"
             }
           },
           "imports": [
@@ -130,18 +134,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.100/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.201/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/wesley/Documents/Development/NETCore/Github/Identity-Micro-Service/Microfisher.Snowflake.Services/Microfisher.Snowflake.Services.csproj": {
+    "/Users/wesley/Documents/GitHub/NETCore-Multilayer-Framework/Microfisher.Snowflake.Services/Microfisher.Snowflake.Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/wesley/Documents/Development/NETCore/Github/Identity-Micro-Service/Microfisher.Snowflake.Services/Microfisher.Snowflake.Services.csproj",
+        "projectUniqueName": "/Users/wesley/Documents/GitHub/NETCore-Multilayer-Framework/Microfisher.Snowflake.Services/Microfisher.Snowflake.Services.csproj",
         "projectName": "Microfisher.Snowflake.Services",
-        "projectPath": "/Users/wesley/Documents/Development/NETCore/Github/Identity-Micro-Service/Microfisher.Snowflake.Services/Microfisher.Snowflake.Services.csproj",
+        "projectPath": "/Users/wesley/Documents/GitHub/NETCore-Multilayer-Framework/Microfisher.Snowflake.Services/Microfisher.Snowflake.Services.csproj",
         "packagesPath": "/Users/wesley/.nuget/packages/",
-        "outputPath": "/Users/wesley/Documents/Development/NETCore/Github/Identity-Micro-Service/Microfisher.Snowflake.Services/obj/",
+        "outputPath": "/Users/wesley/Documents/GitHub/NETCore-Multilayer-Framework/Microfisher.Snowflake.Services/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
@@ -150,19 +154,20 @@
           "/Users/wesley/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.1"
+          "net5.0"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp3.1": {
+          "net5.0": {
+            "targetAlias": "net5.0",
             "projectReferences": {
-              "/Users/wesley/Documents/Development/NETCore/Github/Identity-Micro-Service/Microfisher.Snowflake.Core/Microfisher.Snowflake.Core.csproj": {
-                "projectPath": "/Users/wesley/Documents/Development/NETCore/Github/Identity-Micro-Service/Microfisher.Snowflake.Core/Microfisher.Snowflake.Core.csproj"
+              "/Users/wesley/Documents/GitHub/NETCore-Multilayer-Framework/Microfisher.Snowflake.Core/Microfisher.Snowflake.Core.csproj": {
+                "projectPath": "/Users/wesley/Documents/GitHub/NETCore-Multilayer-Framework/Microfisher.Snowflake.Core/Microfisher.Snowflake.Core.csproj"
               },
-              "/Users/wesley/Documents/Development/NETCore/Github/Identity-Micro-Service/Microfisher.Snowflake.Data/Microfisher.Snowflake.Data.csproj": {
-                "projectPath": "/Users/wesley/Documents/Development/NETCore/Github/Identity-Micro-Service/Microfisher.Snowflake.Data/Microfisher.Snowflake.Data.csproj"
+              "/Users/wesley/Documents/GitHub/NETCore-Multilayer-Framework/Microfisher.Snowflake.Data/Microfisher.Snowflake.Data.csproj": {
+                "projectPath": "/Users/wesley/Documents/GitHub/NETCore-Multilayer-Framework/Microfisher.Snowflake.Data/Microfisher.Snowflake.Data.csproj"
               }
             }
           }
@@ -174,15 +179,16 @@
         }
       },
       "frameworks": {
-        "netcoreapp3.1": {
+        "net5.0": {
+          "targetAlias": "net5.0",
           "dependencies": {
             "CSRedisCore": {
               "target": "Package",
-              "version": "[3.3.0, )"
+              "version": "[3.6.6, )"
             },
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
-              "version": "[3.1.0, )"
+              "version": "[5.0.5, )"
             }
           },
           "imports": [
@@ -200,7 +206,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.100/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.201/RuntimeIdentifierGraph.json"
         }
       }
     }
