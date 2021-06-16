@@ -1,13 +1,13 @@
 
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microfisher.Snowflake.Web", "Microfisher.Snowflake.Web\Microfisher.Snowflake.Web.csproj", "{A6B18291-103B-495F-89DA-99208ED0D682}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Snowflake.Core", "Snowflake.Core\Snowflake.Core.csproj", "{FED90CE0-0EB4-4A65-827B-8ED3BFA55446}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microfisher.Snowflake.Core", "Microfisher.Snowflake.Core\Microfisher.Snowflake.Core.csproj", "{FED90CE0-0EB4-4A65-827B-8ED3BFA55446}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Snowflake.Data", "Snowflake.Data\Snowflake.Data.csproj", "{1192CAC7-BDA1-4550-8AD3-C35907365BE4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microfisher.Snowflake.Data", "Microfisher.Snowflake.Data\Microfisher.Snowflake.Data.csproj", "{1192CAC7-BDA1-4550-8AD3-C35907365BE4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Snowflake.Services", "Snowflake.Services\Snowflake.Services.csproj", "{B5F27096-02E7-4605-B55B-B98D6EB0B9CA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microfisher.Snowflake.Services", "Microfisher.Snowflake.Services\Microfisher.Snowflake.Services.csproj", "{B5F27096-02E7-4605-B55B-B98D6EB0B9CA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Snowflake.Identity", "Snowflake.Identity\Snowflake.Identity.csproj", "{96803367-3369-432D-BFC1-7D41EA5B3D61}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,10 +15,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{A6B18291-103B-495F-89DA-99208ED0D682}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A6B18291-103B-495F-89DA-99208ED0D682}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A6B18291-103B-495F-89DA-99208ED0D682}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A6B18291-103B-495F-89DA-99208ED0D682}.Release|Any CPU.Build.0 = Release|Any CPU
 		{FED90CE0-0EB4-4A65-827B-8ED3BFA55446}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{FED90CE0-0EB4-4A65-827B-8ED3BFA55446}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FED90CE0-0EB4-4A65-827B-8ED3BFA55446}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -31,5 +27,9 @@ Global
 		{B5F27096-02E7-4605-B55B-B98D6EB0B9CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B5F27096-02E7-4605-B55B-B98D6EB0B9CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B5F27096-02E7-4605-B55B-B98D6EB0B9CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96803367-3369-432D-BFC1-7D41EA5B3D61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96803367-3369-432D-BFC1-7D41EA5B3D61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96803367-3369-432D-BFC1-7D41EA5B3D61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96803367-3369-432D-BFC1-7D41EA5B3D61}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

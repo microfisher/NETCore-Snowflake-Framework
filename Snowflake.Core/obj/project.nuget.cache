@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "PS9IguIyaMKt3VG+9T2L4m2sCdnahfSnvhUvvLttZYtMMHO9uYP34C7MuD5GL0PSW1UE54VXxyLL2n5F6eq6ig==",
+  "success": true,
+  "projectFilePath": "/Users/wesley/Documents/GitHub/NETCore-Multilayer-Framework/Snowflake.Core/Snowflake.Core.csproj",
+  "expectedPackageFiles": [
+    "/Users/wesley/.nuget/packages/microsoft.extensions.dependencyinjection/5.0.0/microsoft.extensions.dependencyinjection.5.0.0.nupkg.sha512",
+    "/Users/wesley/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/5.0.0/microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512",
+    "/Users/wesley/.nuget/packages/microsoft.extensions.logging/5.0.0/microsoft.extensions.logging.5.0.0.nupkg.sha512",
+    "/Users/wesley/.nuget/packages/microsoft.extensions.logging.abstractions/5.0.0/microsoft.extensions.logging.abstractions.5.0.0.nupkg.sha512",
+    "/Users/wesley/.nuget/packages/microsoft.extensions.options/5.0.0/microsoft.extensions.options.5.0.0.nupkg.sha512",
+    "/Users/wesley/.nuget/packages/microsoft.extensions.primitives/5.0.0/microsoft.extensions.primitives.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

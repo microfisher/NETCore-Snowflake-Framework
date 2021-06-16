@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <Optimize>true</Optimize>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Debug\net5.0\Snowflake.Data.xml</DocumentationFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="2.0.90" />
+    <PackageReference Include="MySql.Data" Version="8.0.25" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Schemes\identity.struct.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Scripts\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Snowflake.Core\Snowflake.Core.csproj" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,15 @@
+﻿[Unit]
+Description=Snowflake
+
+[Service]
+WorkingDirectory=/var/website/snowflake
+ExecStart=/usr/bin/dotnet /var/website/snowflake/Snowflake.Web.dll
+Restart=always
+RestartSec=10
+SyslogIdentifier=Snowflake
+User=root
+Environment=ASPNETCORE_ENVIRONMENT=Production
+Environment=ASPNETCORE_URLS=http://*:10000
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Snowflake.Data</name>
+    </assembly>
+    <members>
+        <member name="P:Snowflake.Data.Repositories.Repository`2.UnitOfWork">
+            <summary>
+            数据连接上下文
+            </summary>
+        </member>
+        <member name="M:Snowflake.Data.Repositories.Repository`2.Create(`0,System.Boolean)">
+            <summary>
+            创建数据
+            </summary>
+            <typeparam name="TEntity">数据库实体类</typeparam>
+            <param name="entity">数据库实体对象</param>
+            <returns>主键ID</returns>
+        </member>
+        <member name="M:Snowflake.Data.Repositories.Repository`2.Update(System.Object)">
+            <summary>
+            修改数据
+            </summary>
+            <typeparam name="TEntity">数据库实体类</typeparam>
+            <param name="entity">实体对象（必须包含Id及一个需要更新的属性字段，字段名必须与数据库一致）</param>
+            <returns>受影响的行数</returns>
+        </member>
+        <member name="M:Snowflake.Data.Repositories.Repository`2.Count">
+            <summary>
+            计算总行数
+            </summary>
+            <typeparam name="TEntity">数据库实体类</typeparam>
+            <returns>总行数</returns>
+        </member>
+        <member name="M:Snowflake.Data.Repositories.Repository`2.Single(`1,System.Boolean)">
+            <summary>
+            获取单条数据
+            </summary>
+            <typeparam name="TEntity">数据库实体类</typeparam>
+            <param name="id">主键Id</param>
+            <returns>实体对象</returns>
+        </member>
+        <member name="M:Snowflake.Data.Repositories.Repository`2.Delete(`1)">
+            <summary>
+            删除单条数据
+            </summary>
+            <typeparam name="TEntity">数据库实体类</typeparam>
+            <param name="id">主键Id</param>
+            <returns>受影响行数</returns>
+        </member>
+        <member name="M:Snowflake.Data.Repositories.Repository`2.List">
+            <summary>
+            获取所有数据
+            </summary>
+            <typeparam name="TEntity"></typeparam>
+            <returns></returns>
+        </member>
+        <member name="M:Snowflake.Data.Repositories.Repository`2.CleanAll">
+            <summary>
+            清空数据表
+            </summary>
+            <typeparam name="TEntity">数据库实体类</typeparam>
+            <returns>是否成功</returns>
+        </member>
+        <member name="M:Snowflake.Data.Repositories.Repository`2.PageList(System.Int64,System.Int64)">
+            <summary>
+            获取分页数据
+            </summary>
+            <typeparam name="TEntity">数据库实体类</typeparam>
+            <param name="pageIndex">当前页码</param>
+            <param name="pageSize">每页显示数</param>
+            <returns>数据列表</returns>
+        </member>
+    </members>
+</doc>

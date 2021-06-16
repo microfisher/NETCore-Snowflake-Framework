@@ -1,0 +1,15 @@
+2021-06-16 15:30:47.8614 Info Message Template Auto Format enabled
+2021-06-16 15:30:47.8827 Info Loading assembly: NLog.Web.AspNetCore
+2021-06-16 15:30:47.9118 Info Adding target ConsoleTarget(Name=console)
+2021-06-16 15:30:47.9561 Info Adding target FileTarget(Name=file)
+2021-06-16 15:30:48.0771 Info Validating config: TargetNames=file, console, ConfigItems=27, FilePath=/Users/wesley/Documents/GitHub/NETCore-Multilayer-Framework/Snowflake.Identity/bin/Debug/net5.0/nlog.config
+2021-06-16 15:32:15.2752 Info Message Template Auto Format enabled
+2021-06-16 15:32:15.3038 Info Loading assembly: NLog.Web.AspNetCore
+2021-06-16 15:32:15.3341 Info Adding target ConsoleTarget(Name=console)
+2021-06-16 15:32:15.3816 Info Adding target FileTarget(Name=file)
+2021-06-16 15:32:15.5435 Info Validating config: TargetNames=file, console, ConfigItems=27, FilePath=/Users/wesley/Documents/GitHub/NETCore-Multilayer-Framework/Snowflake.Identity/bin/Debug/net5.0/nlog.config
+2021-06-16 15:33:16.5464 Info Message Template Auto Format enabled
+2021-06-16 15:33:16.5708 Info Loading assembly: NLog.Web.AspNetCore
+2021-06-16 15:33:16.5957 Info Adding target ConsoleTarget(Name=console)
+2021-06-16 15:33:16.6343 Info Adding target FileTarget(Name=file)
+2021-06-16 15:33:16.7822 Info Validating config: TargetNames=file, console, ConfigItems=27, FilePath=/Users/wesley/Documents/GitHub/NETCore-Multilayer-Framework/Snowflake.Identity/bin/Debug/net5.0/nlog.config

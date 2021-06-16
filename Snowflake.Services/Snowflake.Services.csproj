@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <Optimize>true</Optimize>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Debug\net5.0\Snowflake.Services.xml</DocumentationFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="Permissions\" />
+    <Folder Include="Enums\" />
+    <Folder Include="Models\" />
+    <Folder Include="Middlewares\" />
+    <Folder Include="Implements\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="CSRedisCore" Version="3.6.6" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="5.0.7" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Middlewares\" />
+    <None Remove="Implements\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Snowflake.Data\Snowflake.Data.csproj" />
+  </ItemGroup>
+</Project>
