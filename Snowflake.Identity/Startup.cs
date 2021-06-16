@@ -64,7 +64,7 @@ namespace Snowflake.Identity
             services.AddJwtToken(appSettings);
 
             // 添加控制器
-            services.AddControllersWithViews().AddJsonOptions(options =>
+            services.AddControllers().AddJsonOptions(options =>
             {
                 options.JsonSerializerOptions.IgnoreNullValues = true;
                 options.JsonSerializerOptions.IgnoreReadOnlyProperties = false;
@@ -95,6 +95,9 @@ namespace Snowflake.Identity
                 });
             });
 
+            // 配置https
+            //app.UseHttpsRedirection();
+
             // 配置IP中间件
             app.UseMiddleware<IPAddressMiddleware>();
 
@@ -103,9 +106,6 @@ namespace Snowflake.Identity
 
             // 配置传输压缩
             app.UseResponseCompression();
-
-            // 配置https
-            //app.UseHttpsRedirection();
 
             // 配置静态文件
             app.UseStaticFiles();
@@ -131,9 +131,7 @@ namespace Snowflake.Identity
             // 配置默认页
             app.UseEndpoints(endpoints =>
             {
-                endpoints.MapControllerRoute(
-                    name: "default",
-                    pattern: "{controller=Home}/{action=Index}/{id?}");
+                endpoints.MapControllers();
             });
 
         }

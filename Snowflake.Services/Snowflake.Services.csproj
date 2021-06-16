@@ -17,7 +17,6 @@
     <Folder Include="Implements\" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="CSRedisCore" Version="3.6.6" />
     <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="5.0.7" />
   </ItemGroup>
   <ItemGroup>
