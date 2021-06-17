@@ -5,7 +5,7 @@ using Snowflake.Core.Dependency;
 
 namespace Snowflake.Data.Interfaces
 {
-    public interface IRepository<TEntity, TKey> : IDenpendency
+    public interface IRepository<TEntity, TKey> : IScopeDependency
     {
         IUnitOfWork UnitOfWork { get; set; }
 

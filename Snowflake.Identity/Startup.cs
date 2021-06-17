@@ -7,7 +7,6 @@ using Snowflake.Core.Configurations;
 using Snowflake.Core.Exceptions;
 using Snowflake.Core.Responses;
 using Snowflake.Core.Utilities;
-using Snowflake.Services.Extenstions;
 using Snowflake.Services.Middlewares;
 using Snowflake.Identity.Extenstions;
 using Microsoft.AspNetCore.Builder;
@@ -21,6 +20,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
+using Snowflake.Core.Extenstions;
 
 namespace Snowflake.Identity
 {
@@ -36,42 +36,17 @@ namespace Snowflake.Identity
         public void ConfigureServices(IServiceCollection services)
         {
 
-            // 配置文件
+            // 添加配置文件
             var appSections = Configuration.GetSection("AppSettings");
             var appSettings = appSections.Get<AppSetting>();
             services.Configure<AppSetting>(appSections);
 
-            // 添加跨域控制
-            services.AddCors();
-
-            // 添加内存缓存
-            services.AddMemoryCache();
-
-            // 添加数据压缩
-            services.AddHttpClient();
-
-            // 添加压缩组件
-            services.AddResponseCompression();
-            services.Configure<GzipCompressionProviderOptions>(options =>
-            {
-                options.Level = CompressionLevel.Fastest;
-            });
-
             // 添加系统服务
             services.AddService(appSettings);
 
-            // 添加JWT授权
-            services.AddJwtToken(appSettings);
+            // 添加自动注入
+            services.AddDenpendency();
 
-            // 添加控制器
-            services.AddControllers().AddJsonOptions(options =>
-            {
-                options.JsonSerializerOptions.IgnoreNullValues = true;
-                options.JsonSerializerOptions.IgnoreReadOnlyProperties = false;
-            });
-
-            // 添加Swagger
-            services.AddSwagger();
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env, ILogger<Startup> _logger, IOptions<AppSetting> appSettings)

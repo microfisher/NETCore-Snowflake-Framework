@@ -4,6 +4,19 @@
         <name>Snowflake.Core</name>
     </assembly>
     <members>
+        <member name="M:Snowflake.Core.Extenstions.AutoMappingExtenstions.AddDenpendency(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            自动注入依赖关系
+            </summary>
+        </member>
+        <member name="M:Snowflake.Core.Extenstions.AutoMappingExtenstions.IsGenericAssignableFrom(System.Type,System.Type)">
+            <summary>
+            检查范型类型匹配
+            </summary>
+            <param name="generic">范型接口</param>
+            <param name="type">范型类型</param>
+            <returns></returns>
+        </member>
         <member name="P:Snowflake.Core.Responses.IResultObject.Status">
             <summary>
             返回状态

@@ -29,5 +29,10 @@
             登出账号
             </summary>     
         </member>
+        <member name="M:Snowflake.Identity.Extenstions.ServiceExtensions.AddService(Microsoft.Extensions.DependencyInjection.IServiceCollection,Snowflake.Core.Configurations.AppSetting)">
+            <summary>
+            注册其他服务
+            </summary>
+        </member>
     </members>
 </doc>

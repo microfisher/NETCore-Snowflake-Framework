@@ -6,7 +6,7 @@ using Snowflake.Core.Dependency;
 
 namespace Snowflake.Services.Interfaces
 {
-    public interface IUserManager : IDenpendency
+    public interface IUserManager : IScopeDependency
     {
         Task<IResultObject> SignIn(SignInDto dto);
 

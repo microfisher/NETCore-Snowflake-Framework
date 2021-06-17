@@ -13,7 +13,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.IdentityModel.Tokens;
 
-namespace Snowflake.Services.Extenstions
+namespace Snowflake.Identity.Extenstions
 {
     public static class JwtTokenExtenstions
     {

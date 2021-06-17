@@ -22,7 +22,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Options;
 using Snowflake.Core.Configurations;
 
-namespace Snowflake.Services
+namespace Snowflake.Services.Implements
 {
     /// <summary>
     /// 身份认证服务

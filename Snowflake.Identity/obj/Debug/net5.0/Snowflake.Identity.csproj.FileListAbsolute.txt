@@ -19,6 +19,7 @@
 /Users/wesley/Documents/GitHub/NETCore-Multilayer-Framework/Snowflake.Identity/bin/Debug/net5.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 /Users/wesley/Documents/GitHub/NETCore-Multilayer-Framework/Snowflake.Identity/bin/Debug/net5.0/Microsoft.IdentityModel.Tokens.dll
 /Users/wesley/Documents/GitHub/NETCore-Multilayer-Framework/Snowflake.Identity/bin/Debug/net5.0/Microsoft.OpenApi.dll
+/Users/wesley/Documents/GitHub/NETCore-Multilayer-Framework/Snowflake.Identity/bin/Debug/net5.0/MySqlConnector.dll
 /Users/wesley/Documents/GitHub/NETCore-Multilayer-Framework/Snowflake.Identity/bin/Debug/net5.0/Newtonsoft.Json.dll
 /Users/wesley/Documents/GitHub/NETCore-Multilayer-Framework/Snowflake.Identity/bin/Debug/net5.0/NLog.dll
 /Users/wesley/Documents/GitHub/NETCore-Multilayer-Framework/Snowflake.Identity/bin/Debug/net5.0/NLog.Extensions.Logging.dll
@@ -36,7 +37,6 @@
 /Users/wesley/Documents/GitHub/NETCore-Multilayer-Framework/Snowflake.Identity/bin/Debug/net5.0/Snowflake.Core.xml
 /Users/wesley/Documents/GitHub/NETCore-Multilayer-Framework/Snowflake.Identity/bin/Debug/net5.0/Snowflake.Data.pdb
 /Users/wesley/Documents/GitHub/NETCore-Multilayer-Framework/Snowflake.Identity/bin/Debug/net5.0/Snowflake.Data.xml
-/Users/wesley/Documents/GitHub/NETCore-Multilayer-Framework/Snowflake.Identity/obj/Debug/net5.0/Snowflake.Identity.csproj.AssemblyReference.cache
 /Users/wesley/Documents/GitHub/NETCore-Multilayer-Framework/Snowflake.Identity/obj/Debug/net5.0/Snowflake.Identity.GeneratedMSBuildEditorConfig.editorconfig
 /Users/wesley/Documents/GitHub/NETCore-Multilayer-Framework/Snowflake.Identity/obj/Debug/net5.0/Snowflake.Identity.AssemblyInfoInputs.cache
 /Users/wesley/Documents/GitHub/NETCore-Multilayer-Framework/Snowflake.Identity/obj/Debug/net5.0/Snowflake.Identity.AssemblyInfo.cs
@@ -52,3 +52,4 @@
 /Users/wesley/Documents/GitHub/NETCore-Multilayer-Framework/Snowflake.Identity/obj/Debug/net5.0/ref/Snowflake.Identity.dll
 /Users/wesley/Documents/GitHub/NETCore-Multilayer-Framework/Snowflake.Identity/obj/Debug/net5.0/Snowflake.Identity.pdb
 /Users/wesley/Documents/GitHub/NETCore-Multilayer-Framework/Snowflake.Identity/obj/Debug/net5.0/Snowflake.Identity.genruntimeconfig.cache
+/Users/wesley/Documents/GitHub/NETCore-Multilayer-Framework/Snowflake.Identity/obj/Debug/net5.0/Snowflake.Identity.csproj.AssemblyReference.cache

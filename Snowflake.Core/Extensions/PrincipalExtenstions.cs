@@ -4,7 +4,7 @@ using Snowflake.Core.Utilities;
 
 namespace Snowflake.Core.Extensions
 {
-    public static class ContextExtenstions
+    public static class PrincipalExtenstions
     {
         public static long GetUserId(this ClaimsPrincipal claims)
         {

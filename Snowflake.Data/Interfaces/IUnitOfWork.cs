@@ -7,7 +7,7 @@ using Snowflake.Core.Dependency;
 
 namespace Snowflake.Data.Interfaces
 {
-    public interface IUnitOfWork : IDisposable, IDenpendency
+    public interface IUnitOfWork : IDisposable, IScopeDependency
     {
         DbTransaction Transaction { get; set; }
 
