@@ -4,12 +4,14 @@
         <name>Snowflake.Data</name>
     </assembly>
     <members>
-        <member name="P:Snowflake.Data.Repositories.Repository`2.UnitOfWork">
+        <member name="T:Snowflake.Data.Implements.Repository`2">
             <summary>
-            数据连接上下文
+            数据仓储
             </summary>
+            <typeparam name="TEntity">数据实体对象</typeparam>
+            <typeparam name="TKey">数据主键类型</typeparam>
         </member>
-        <member name="M:Snowflake.Data.Repositories.Repository`2.Create(`0,System.Boolean)">
+        <member name="M:Snowflake.Data.Implements.Repository`2.CreateAsync(`0,System.Boolean)">
             <summary>
             创建数据
             </summary>
@@ -17,7 +19,7 @@
             <param name="entity">数据库实体对象</param>
             <returns>主键ID</returns>
         </member>
-        <member name="M:Snowflake.Data.Repositories.Repository`2.Update(System.Object)">
+        <member name="M:Snowflake.Data.Implements.Repository`2.UpdateAsync(System.Object)">
             <summary>
             修改数据
             </summary>
@@ -25,14 +27,14 @@
             <param name="entity">实体对象（必须包含Id及一个需要更新的属性字段，字段名必须与数据库一致）</param>
             <returns>受影响的行数</returns>
         </member>
-        <member name="M:Snowflake.Data.Repositories.Repository`2.Count">
+        <member name="M:Snowflake.Data.Implements.Repository`2.CountAsync">
             <summary>
             计算总行数
             </summary>
             <typeparam name="TEntity">数据库实体类</typeparam>
             <returns>总行数</returns>
         </member>
-        <member name="M:Snowflake.Data.Repositories.Repository`2.Single(`1,System.Boolean)">
+        <member name="M:Snowflake.Data.Implements.Repository`2.SingleAsync(`1,System.Boolean)">
             <summary>
             获取单条数据
             </summary>
@@ -40,7 +42,7 @@
             <param name="id">主键Id</param>
             <returns>实体对象</returns>
         </member>
-        <member name="M:Snowflake.Data.Repositories.Repository`2.Delete(`1)">
+        <member name="M:Snowflake.Data.Implements.Repository`2.DeleteAsync(`1)">
             <summary>
             删除单条数据
             </summary>
@@ -48,21 +50,21 @@
             <param name="id">主键Id</param>
             <returns>受影响行数</returns>
         </member>
-        <member name="M:Snowflake.Data.Repositories.Repository`2.List">
+        <member name="M:Snowflake.Data.Implements.Repository`2.AllAsync">
             <summary>
             获取所有数据
             </summary>
             <typeparam name="TEntity"></typeparam>
             <returns></returns>
         </member>
-        <member name="M:Snowflake.Data.Repositories.Repository`2.CleanAll">
+        <member name="M:Snowflake.Data.Implements.Repository`2.CleanAsync">
             <summary>
             清空数据表
             </summary>
             <typeparam name="TEntity">数据库实体类</typeparam>
             <returns>是否成功</returns>
         </member>
-        <member name="M:Snowflake.Data.Repositories.Repository`2.PageList(System.Int64,System.Int64)">
+        <member name="M:Snowflake.Data.Implements.Repository`2.PageListAsync(System.Int64,System.Int64)">
             <summary>
             获取分页数据
             </summary>
@@ -70,6 +72,49 @@
             <param name="pageIndex">当前页码</param>
             <param name="pageSize">每页显示数</param>
             <returns>数据列表</returns>
+        </member>
+        <member name="T:Snowflake.Data.Implements.UnitOfWork">
+            <summary>
+            工作单元
+            </summary>
+        </member>
+        <member name="M:Snowflake.Data.Implements.UnitOfWork.Begin">
+            <summary>
+            同步启动事务
+            </summary>
+        </member>
+        <member name="M:Snowflake.Data.Implements.UnitOfWork.BeginAsync">
+            <summary>
+            异步启动事务
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Snowflake.Data.Implements.UnitOfWork.Commit">
+            <summary>
+            同步提交事务
+            </summary>
+        </member>
+        <member name="M:Snowflake.Data.Implements.UnitOfWork.CommitAsync">
+            <summary>
+            异步提交事务
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Snowflake.Data.Implements.UnitOfWork.Rollback">
+            <summary>
+            同步回滚事务
+            </summary>
+        </member>
+        <member name="M:Snowflake.Data.Implements.UnitOfWork.RollbackAsync">
+            <summary>
+            异步回滚事务
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Snowflake.Data.Implements.UnitOfWork.Dispose">
+            <summary>
+            释放资源
+            </summary>
         </member>
     </members>
 </doc>

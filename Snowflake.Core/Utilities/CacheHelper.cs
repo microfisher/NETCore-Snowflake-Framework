@@ -8,7 +8,7 @@ using Snowflake.Core.Attributes;
 
 namespace Snowflake.Core.Utilities
 {
-    public static class DataHelper
+    public static class CacheHelper
     {
         private static readonly ConcurrentDictionary<Type, List<string>> _parameterCache = new ConcurrentDictionary<Type, List<string>>();
 

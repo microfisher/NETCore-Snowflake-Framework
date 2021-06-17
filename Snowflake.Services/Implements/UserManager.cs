@@ -7,7 +7,7 @@ using System.Linq;
 using Snowflake.Core.Utilities;
 using Snowflake.Core.Responses;
 using Snowflake.Core.Extensions;
-using Snowflake.Data.Repositories;
+using Snowflake.Data.Interfaces;
 using Snowflake.Services.Enums;
 using Snowflake.Services.Models;
 using Snowflake.Services.Interfaces;
@@ -174,10 +174,10 @@ namespace Snowflake.Services
                 }
 
                 // 创建账号信息
-                user.Id = await _userRepository.Create(user);
+                user.Id = await _userRepository.CreateAsync(user);
 
                 // 创建账号额度
-                await _balanceRepository.Create(new UserBalance { Id = user.Id, Credit = 0, Balance = 0 }, true);
+                await _balanceRepository.CreateAsync(new UserBalance { Id = user.Id, Credit = 0, Balance = 0 }, true);
 
                 // 写入缓存信息
                 if (!RedisSetUser(user))
@@ -277,7 +277,7 @@ namespace Snowflake.Services
 
                 // 更新登陆状态
                 var ipAddress = _httpContextAccessor.HttpContext.Connection.RemoteIpAddress.ToString();
-                await _userRepository.Update(new { Id = id, SignInTime = nowTime, IpAddress = ipAddress });
+                await _userRepository.UpdateAsync(new { Id = id, SignInTime = nowTime, IpAddress = ipAddress });
 
                 // 设置身份识别
                 RedisHelper.Set($"{StringConst.IDENTITY_VERIFY_TOKEN}{id}", identity, NumberConst.IDENTITY_SIGN_IN_STATE_EXPIRED);

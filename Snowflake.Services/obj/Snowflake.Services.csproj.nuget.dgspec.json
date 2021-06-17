@@ -106,13 +106,13 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "CSRedisCore": {
+              "target": "Package",
+              "version": "[3.6.6, )"
+            },
             "Dapper": {
               "target": "Package",
               "version": "[2.0.90, )"
-            },
-            "MySql.Data": {
-              "target": "Package",
-              "version": "[8.0.25, )"
             }
           },
           "imports": [
@@ -175,10 +175,6 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
-            "CSRedisCore": {
-              "target": "Package",
-              "version": "[3.6.6, )"
-            },
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
               "version": "[5.0.7, )"

@@ -5,12 +5,15 @@ using System.Data.Common;
 using System.Threading.Tasks;
 using Dapper;
 using Snowflake.Core.Configurations;
-using Snowflake.Data.Repositories;
+using Snowflake.Data.Interfaces;
 using Microsoft.Extensions.Options;
-using MySql.Data.MySqlClient;
+using MySqlConnector;
 
-namespace Snowflake.Data.Repositories
+namespace Snowflake.Data.Implements
 {
+    /// <summary>
+    /// 工作单元
+    /// </summary>
     public class UnitOfWork : IUnitOfWork
     {
         private readonly AppSetting _appSettings;
@@ -35,40 +38,64 @@ namespace Snowflake.Data.Repositories
             Connection.Open();
         }
 
+        /// <summary>
+        /// 同步启动事务
+        /// </summary>
         public void Begin()
         {
             Transaction = Connection.BeginTransaction();
         }
 
+        /// <summary>
+        /// 异步启动事务
+        /// </summary>
+        /// <returns></returns>
         public async Task BeginAsync()
         {
             Transaction = await Connection.BeginTransactionAsync();
         }
 
+        /// <summary>
+        /// 同步提交事务
+        /// </summary>
         public void Commit()
         {
             Transaction.Commit();
             Dispose();
         }
 
+        /// <summary>
+        /// 异步提交事务
+        /// </summary>
+        /// <returns></returns>
         public async Task CommitAsync()
         {
             await Transaction.CommitAsync();
             Dispose();
         }
 
+        /// <summary>
+        /// 同步回滚事务
+        /// </summary>
         public void Rollback()
         {
             Transaction.Rollback();
             Dispose();
         }
 
+        /// <summary>
+        /// 异步回滚事务
+        /// </summary>
+        /// <returns></returns>
         public async Task RollbackAsync()
         {
             await Transaction.RollbackAsync();
             Dispose();
         }
 
+        /// <summary>
+        /// 释放资源
+        /// </summary>
         public void Dispose()
         {
             Connection?.Close();

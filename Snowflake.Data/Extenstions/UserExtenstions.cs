@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Threading.Tasks;
 using Dapper;
-using Snowflake.Data.Repositories;
+using Snowflake.Data.Interfaces;
 using Snowflake.Data.Entities;
 
 namespace Snowflake.Data.Extenstions

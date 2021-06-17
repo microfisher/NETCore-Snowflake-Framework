@@ -5,7 +5,7 @@ using System.Data.Common;
 using System.Threading.Tasks;
 using Snowflake.Core.Dependency;
 
-namespace Snowflake.Data.Repositories
+namespace Snowflake.Data.Interfaces
 {
     public interface IUnitOfWork : IDisposable, IDenpendency
     {
