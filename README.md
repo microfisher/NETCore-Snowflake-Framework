@@ -5,17 +5,15 @@ https://travis-ci.com/microfisher/NETCore-Multilayer-Framework.svg?branch=master
 # 雪花框架（.NET Core 高性能多层架构）
 基于.NET Core + Mysql + Redis + RabbitMQ 设计的高性能多层架构，使用了Dapper、CSRedis、Swagger、NLog、MySqlConnector、RabbitMQ.Client等开源项目，涵盖了仓储设计模式、全局日志、JWT授权认证、Swagger API管理、请求时间统计等功能，Docker配置文件、服务安装文件等，便于开发项目直接使用。
 
-
-
 ## 类库介绍
 
-Snowflake.Core ：核心层 - 包含系统配置、自动注入、系统异常、响应对象、通用Helper等与业务无关的通用代码。
+Snowflake.Core      核心层 - 包含系统配置、自动注入、系统异常、响应对象、通用Helper等与业务无关的通用代码。
 
-Snowflake.Data ：数据层 - 基于原生SQL的仓储设计模式及事务处理单元，实现了通用的数据操作。
+Snowflake.Data      数据层 - 基于原生SQL的仓储设计模式及事务处理单元，实现了通用的数据操作。
 
-Snowflake.Services ：业务层 - 与具体业务相关的逻辑。
+Snowflake.Services  业务层 - 与具体业务相关的逻辑，同时包含了日志记录、异常抛出、IP地址获取、计算各个请求消耗时间。
 
-Snowflake.Identity ：接口层 - 提供RESTFUL接口给前端。
+Snowflake.Identity  接口层 - 基于AOP标签的权限认证，提供RESTFUL接口给前端。
 
 ## 基本使用
 
