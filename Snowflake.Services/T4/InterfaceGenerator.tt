@@ -1,0 +1,25 @@
+﻿<#@ template language="C#" #>
+<#@ assembly name="System.Core" #>
+<#@ import namespace="System.Linq" #>
+<#@ import namespace="System.Text" #>
+<#@ import namespace="System.Collections.Generic" #>
+
+<#
+ var module = "Setting"; // 模块名称（数据库表名）
+#>
+
+using System.Threading.Tasks;
+using Snowflake.Core.Responses;
+using Snowflake.Services.Dtos;
+using Snowflake.Core.Dependency;
+
+namespace Snowflake.Services.Modules.<#= module #>s
+{
+    public interface I<#= module #>Manager : IScopeDependency
+    {
+        /// <summary>
+        /// 做点啥吧
+        /// </summary>
+        Task<IResultObject> DoSomething(dynamic dto);
+    }
+}

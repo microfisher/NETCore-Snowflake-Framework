@@ -16,6 +16,7 @@
     <Folder Include="Middlewares\" />
     <Folder Include="Modules\" />
     <Folder Include="Modules\Users\" />
+    <Folder Include="T4\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="5.0.7" />
@@ -24,8 +25,27 @@
     <None Remove="Middlewares\" />
     <None Remove="Modules\" />
     <None Remove="Modules\Users\" />
+    <None Remove="T4\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Snowflake.Data\Snowflake.Data.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="T4\Generator.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>ImplementGenerator.cs</LastGenOutput>
+    </None>
+    <None Update="T4\ImplementGenerator %28副本%29.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>InterfaceGenerator.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="T4\InterfaceGenerator %28副本%29.cs">
+      <DependentUpon>InterfaceGenerator.tt</DependentUpon>
+    </Compile>
+    <Compile Update="T4\ImplementGenerator.cs">
+      <DependentUpon>ImplementGenerator.tt</DependentUpon>
+    </Compile>
   </ItemGroup>
 </Project>

@@ -1,0 +1,51 @@
+﻿<#@ template language="C#" #>
+<#@ assembly name="System.Core" #>
+<#@ import namespace="System.Linq" #>
+<#@ import namespace="System.Text" #>
+<#@ import namespace="System.Collections.Generic" #>
+
+<#
+ var module = "Setting"; // 模块名称（数据库表名）
+#>
+
+using System.Threading.Tasks;
+using Microsoft.AspNetCore.Http;
+using Microsoft.Extensions.Logging;
+using Microsoft.Extensions.Options;
+using Snowflake.Data.Entities;
+using Snowflake.Core.Responses;
+using Snowflake.Data.Repositories;
+using Snowflake.Core.Configurations;
+
+namespace Snowflake.Services.Modules.<#= module #>s
+{
+    /// <summary>
+    /// <#= module #>服务
+    /// </summary>
+    public class <#= module #>Manager : I<#= module #>Manager
+    {
+        private readonly AppSetting _appSettings;
+        private readonly IUnitOfWork _unitOfWork;
+        private readonly ILogger<<#= module #>Manager> _logger;
+        private readonly IHttpContextAccessor _httpContextAccessor;
+        private readonly IRepository<<#= module #>, long> _<#= module.ToLower() #>Repository;
+
+        public <#= module #>Manager(IOptions<AppSetting> appSettings, ILogger<<#= module #>Manager> logger, IHttpContextAccessor httpContextAccessor, IUnitOfWork unitOfWork, IRepository<<#= module #>, long> <#= module.ToLower() #>Repository)
+        {
+            _logger = logger;
+            _unitOfWork = unitOfWork;
+            _appSettings = appSettings.Value;
+            _httpContextAccessor = httpContextAccessor;
+            _<#= module.ToLower() #>Repository = <#= module.ToLower() #>Repository;
+        }
+        
+        /// <summary>
+        /// 做点啥吧
+        /// </summary>
+        public Task<IResultObject> DoSomething(dynamic dto)
+        {
+            throw new System.NotImplementedException();
+        }
+    }
+}
+
