@@ -2,6 +2,10 @@
 # 雪花框架（.NET Core 多层架构）
 基于.NET Core + Mysql + Redis + Dapper + Swagger + CSRedis设计的多层架构，涵盖了仓储设计模式、全局日志、JWT授权认证、Swagger API管理、请求时间统计等功能，Docker配置文件、服务安装文件等，便于开发项目直接使用。
 
+![status](
+https://travis-ci.com/microfisher/NETCore-Multilayer-Framework.svg?branch=master)
+
+
 ## 类库介绍
 
 Snowflake.Core ：公共类库，包含一些与业务无关的代码、常用的Helper、或Http请求时间统计等。
