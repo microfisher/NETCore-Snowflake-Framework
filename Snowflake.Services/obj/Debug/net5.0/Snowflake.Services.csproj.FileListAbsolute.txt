@@ -34,3 +34,4 @@
 /Users/wesley/Documents/GitHub/NETCore-Multilayer-Framework/Snowflake.Services/obj/Debug/net5.0/Snowflake.Services.dll
 /Users/wesley/Documents/GitHub/NETCore-Multilayer-Framework/Snowflake.Services/obj/Debug/net5.0/ref/Snowflake.Services.dll
 /Users/wesley/Documents/GitHub/NETCore-Multilayer-Framework/Snowflake.Services/obj/Debug/net5.0/Snowflake.Services.pdb
+/Users/wesley/Documents/GitHub/NETCore-Multilayer-Framework/Snowflake.Services/obj/Debug/net5.0/Snowflake.Services.csproj.AssemblyReference.cache

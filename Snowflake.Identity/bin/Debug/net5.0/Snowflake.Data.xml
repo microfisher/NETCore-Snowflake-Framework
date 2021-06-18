@@ -1,0 +1,274 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Snowflake.Data</name>
+    </assembly>
+    <members>
+        <member name="M:Snowflake.Data.Modules.Users.UserRepository.IsUserExistAsync(Snowflake.Data.Repositories.IRepository{Snowflake.Data.Entities.User,System.Int64},System.String)">
+            <summary>
+            判断用户是否存在
+            </summary>
+            <param name="repository"></param>
+            <param name="account"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Snowflake.Data.Modules.Users.UserRepository.GetUserByAccountAsync(Snowflake.Data.Repositories.IRepository{Snowflake.Data.Entities.User,System.Int64},System.String)">
+            <summary>
+            根据账号获取用户信息
+            </summary>
+            <param name="repository"></param>
+            <param name="account"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Snowflake.Data.Repositories.IRepository`2">
+            <summary>
+            数据仓储
+            </summary>
+            <typeparam name="TEntity">数据实体对象</typeparam>
+            <typeparam name="TKey">数据主键类型</typeparam>
+        </member>
+        <member name="M:Snowflake.Data.Repositories.IRepository`2.CreateAsync(`0,System.Boolean)">
+            <summary>
+            创建数据
+            </summary>
+            <typeparam name="TEntity">数据库实体类</typeparam>
+            <param name="entity">数据库实体对象</param>
+            <returns>主键ID</returns>
+        </member>
+        <member name="M:Snowflake.Data.Repositories.IRepository`2.UpdateAsync(System.Object)">
+            <summary>
+            修改数据
+            </summary>
+            <typeparam name="TEntity">数据库实体类</typeparam>
+            <param name="entity">实体对象（必须包含Id及一个需要更新的属性字段，字段名必须与数据库一致）</param>
+            <returns>受影响的行数</returns>
+        </member>
+        <member name="M:Snowflake.Data.Repositories.IRepository`2.GetCountAsync">
+            <summary>
+            计算总行数
+            </summary>
+            <typeparam name="TEntity">数据库实体类</typeparam>
+            <returns>总行数</returns>
+        </member>
+        <member name="M:Snowflake.Data.Repositories.IRepository`2.GetSingleAsync(`1,System.Boolean)">
+            <summary>
+            获取单条数据
+            </summary>
+            <typeparam name="TEntity">数据库实体类</typeparam>
+            <param name="id">主键Id</param>
+            <returns>实体对象</returns>
+        </member>
+        <member name="M:Snowflake.Data.Repositories.IRepository`2.DeleteAsync(`1)">
+            <summary>
+            删除单条数据
+            </summary>
+            <typeparam name="TEntity">数据库实体类</typeparam>
+            <param name="id">主键Id</param>
+            <returns>受影响行数</returns>
+        </member>
+        <member name="M:Snowflake.Data.Repositories.IRepository`2.GetAllAsync">
+            <summary>
+            获取所有数据
+            </summary>
+            <typeparam name="TEntity">数据库实体类</typeparam>
+            <returns>实体集合</returns>
+        </member>
+        <member name="M:Snowflake.Data.Repositories.IRepository`2.CleanAsync">
+            <summary>
+            清空数据表
+            </summary>
+            <typeparam name="TEntity">数据库实体类</typeparam>
+            <returns>是否成功</returns>
+        </member>
+        <member name="M:Snowflake.Data.Repositories.IRepository`2.IsTableExistAsync">
+            <summary>
+            检查表是否存在
+            </summary>
+            <returns>是否存在</returns>
+        </member>
+        <member name="M:Snowflake.Data.Repositories.IRepository`2.GetPageListAsync(System.Int64,System.Int64)">
+            <summary>
+            获取分页数据
+            </summary>
+            <typeparam name="TEntity">数据库实体类</typeparam>
+            <param name="pageIndex">当前页码</param>
+            <param name="pageSize">每页显示数</param>
+            <returns>数据列表</returns>
+        </member>
+        <member name="T:Snowflake.Data.Repositories.IUnitOfWork">
+            <summary>
+            事务工作单元
+            </summary>
+        </member>
+        <member name="P:Snowflake.Data.Repositories.IUnitOfWork.Transaction">
+            <summary>
+            事务对象
+            </summary>
+        </member>
+        <member name="P:Snowflake.Data.Repositories.IUnitOfWork.Connection">
+            <summary>
+            数据连接
+            </summary>
+        </member>
+        <member name="M:Snowflake.Data.Repositories.IUnitOfWork.Begin">
+            <summary>
+            同步启动事务
+            </summary>
+        </member>
+        <member name="M:Snowflake.Data.Repositories.IUnitOfWork.Commit">
+            <summary>
+            同步提交事务
+            </summary>
+        </member>
+        <member name="M:Snowflake.Data.Repositories.IUnitOfWork.Rollback">
+            <summary>
+            同步回滚事务
+            </summary>
+        </member>
+        <member name="M:Snowflake.Data.Repositories.IUnitOfWork.BeginAsync">
+            <summary>
+            异步启动事务
+            </summary>
+        </member>
+        <member name="M:Snowflake.Data.Repositories.IUnitOfWork.CommitAsync">
+            <summary>
+            异步提交事务
+            </summary>
+        </member>
+        <member name="M:Snowflake.Data.Repositories.IUnitOfWork.RollbackAsync">
+            <summary>
+            异步回滚事务
+            </summary>
+        </member>
+        <member name="T:Snowflake.Data.Repository`2">
+            <summary>
+            数据仓储
+            </summary>
+            <typeparam name="TEntity">数据实体对象</typeparam>
+            <typeparam name="TKey">数据主键类型</typeparam>
+        </member>
+        <member name="M:Snowflake.Data.Repository`2.CreateAsync(`0,System.Boolean)">
+            <summary>
+            创建数据
+            </summary>
+            <typeparam name="TEntity">数据库实体类</typeparam>
+            <param name="entity">数据库实体对象</param>
+            <returns>主键ID</returns>
+        </member>
+        <member name="M:Snowflake.Data.Repository`2.UpdateAsync(System.Object)">
+            <summary>
+            修改数据
+            </summary>
+            <typeparam name="TEntity">数据库实体类</typeparam>
+            <param name="entity">实体对象（必须包含Id及一个需要更新的属性字段，字段名必须与数据库一致）</param>
+            <returns>受影响的行数</returns>
+        </member>
+        <member name="M:Snowflake.Data.Repository`2.GetCountAsync">
+            <summary>
+            计算总行数
+            </summary>
+            <typeparam name="TEntity">数据库实体类</typeparam>
+            <returns>总行数</returns>
+        </member>
+        <member name="M:Snowflake.Data.Repository`2.GetSingleAsync(`1,System.Boolean)">
+            <summary>
+            获取单条数据
+            </summary>
+            <typeparam name="TEntity">数据库实体类</typeparam>
+            <param name="id">主键Id</param>
+            <returns>实体对象</returns>
+        </member>
+        <member name="M:Snowflake.Data.Repository`2.DeleteAsync(`1)">
+            <summary>
+            删除单条数据
+            </summary>
+            <typeparam name="TEntity">数据库实体类</typeparam>
+            <param name="id">主键Id</param>
+            <returns>受影响行数</returns>
+        </member>
+        <member name="M:Snowflake.Data.Repository`2.GetAllAsync">
+            <summary>
+            获取所有数据
+            </summary>
+            <typeparam name="TEntity">数据库实体类</typeparam>
+            <returns>实体集合</returns>
+        </member>
+        <member name="M:Snowflake.Data.Repository`2.CleanAsync">
+            <summary>
+            清空数据表
+            </summary>
+            <typeparam name="TEntity">数据库实体类</typeparam>
+            <returns>是否成功</returns>
+        </member>
+        <member name="M:Snowflake.Data.Repository`2.IsTableExistAsync">
+            <summary>
+            检查表是否存在
+            </summary>
+            <returns>是否存在</returns>
+        </member>
+        <member name="M:Snowflake.Data.Repository`2.GetPageListAsync(System.Int64,System.Int64)">
+            <summary>
+            获取分页数据
+            </summary>
+            <typeparam name="TEntity">数据库实体类</typeparam>
+            <param name="pageIndex">当前页码</param>
+            <param name="pageSize">每页显示数</param>
+            <returns>数据列表</returns>
+        </member>
+        <member name="T:Snowflake.Data.UnitOfWork">
+            <summary>
+            事务工作单元
+            </summary>
+        </member>
+        <member name="F:Snowflake.Data.UnitOfWork._appSettings">
+            <summary>
+            系统配置文件
+            </summary>
+        </member>
+        <member name="P:Snowflake.Data.UnitOfWork.Transaction">
+            <summary>
+            事务对象
+            </summary>
+        </member>
+        <member name="P:Snowflake.Data.UnitOfWork.Connection">
+            <summary>
+            数据连接
+            </summary>
+        </member>
+        <member name="M:Snowflake.Data.UnitOfWork.Begin">
+            <summary>
+            同步启动事务
+            </summary>
+        </member>
+        <member name="M:Snowflake.Data.UnitOfWork.Commit">
+            <summary>
+            同步提交事务
+            </summary>
+        </member>
+        <member name="M:Snowflake.Data.UnitOfWork.Rollback">
+            <summary>
+            同步回滚事务
+            </summary>
+        </member>
+        <member name="M:Snowflake.Data.UnitOfWork.BeginAsync">
+            <summary>
+            异步启动事务
+            </summary>
+        </member>
+        <member name="M:Snowflake.Data.UnitOfWork.CommitAsync">
+            <summary>
+            异步提交事务
+            </summary>
+        </member>
+        <member name="M:Snowflake.Data.UnitOfWork.RollbackAsync">
+            <summary>
+            异步回滚事务
+            </summary>
+        </member>
+        <member name="M:Snowflake.Data.UnitOfWork.Dispose">
+            <summary>
+            释放资源
+            </summary>
+        </member>
+    </members>
+</doc>

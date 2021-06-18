@@ -1,0 +1,4 @@
+language: csharp
+solution: Snowflake.sln
+script:
+ - dotnet restore

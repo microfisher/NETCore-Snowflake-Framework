@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Snowflake.Identity</name>
+    </assembly>
+    <members>
+        <member name="T:Snowflake.Identity.Controllers.IdentityController">
+            <summary>
+            身份认证服务
+            </summary>
+        </member>
+        <member name="M:Snowflake.Identity.Controllers.IdentityController.Post(Snowflake.Services.Dtos.SignUpDto)">
+            <summary>
+            创建账户
+            </summary>
+        </member>
+        <member name="M:Snowflake.Identity.Controllers.IdentityController.Post(Snowflake.Services.Dtos.SignInDto)">
+            <summary>
+            登陆账号（密码错误10次锁定5分钟后才能再登陆）
+            </summary>
+        </member>
+        <member name="M:Snowflake.Identity.Controllers.IdentityController.Get">
+            <summary>
+            获取Token
+            </summary>
+        </member>
+        <member name="M:Snowflake.Identity.Controllers.IdentityController.Delete">
+            <summary>
+            登出账号
+            </summary>     
+        </member>
+        <member name="M:Snowflake.Identity.Extenstions.MappingExtenstions.AddDenpendency(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            自动注入依赖关系
+            </summary>
+        </member>
+        <member name="M:Snowflake.Identity.Extenstions.MappingExtenstions.IsGenericAssignableFrom(System.Type,System.Type)">
+            <summary>
+            检查范型类型匹配
+            </summary>
+            <param name="generic">范型接口</param>
+            <param name="type">范型类型</param>
+            <returns></returns>
+        </member>
+        <member name="M:Snowflake.Identity.Extenstions.ServiceExtensions.AddService(Microsoft.Extensions.DependencyInjection.IServiceCollection,Snowflake.Core.Configurations.AppSetting)">
+            <summary>
+            注册其他服务
+            </summary>
+        </member>
+    </members>
+</doc>
