@@ -64,58 +64,58 @@
             系统管理员
             </summary>
         </member>
-        <member name="T:Snowflake.Services.Implements.UserManager">
+        <member name="T:Snowflake.Services.Modules.Users.UserManager">
             <summary>
             身份认证服务
             </summary>
         </member>
-        <member name="M:Snowflake.Services.Implements.UserManager.SignIn(Snowflake.Services.Dtos.SignInDto)">
+        <member name="M:Snowflake.Services.Modules.Users.UserManager.SignIn(Snowflake.Services.Dtos.SignInDto)">
             <summary>
             账号登陆
             </summary>
         </member>
-        <member name="M:Snowflake.Services.Implements.UserManager.SignUp(Snowflake.Services.Dtos.SignUpDto)">
+        <member name="M:Snowflake.Services.Modules.Users.UserManager.SignUp(Snowflake.Services.Dtos.SignUpDto)">
             <summary>
             账号注册
             </summary>
         </member>
-        <member name="M:Snowflake.Services.Implements.UserManager.SignOut">
+        <member name="M:Snowflake.Services.Modules.Users.UserManager.SignOut">
             <summary>
             注销账号
             </summary>
         </member>
-        <member name="M:Snowflake.Services.Implements.UserManager.GetJwtToken">
+        <member name="M:Snowflake.Services.Modules.Users.UserManager.GetJwtToken">
             <summary>
             获取账号Token
             </summary>
         </member>
-        <member name="M:Snowflake.Services.Implements.UserManager.GetJwtToken(System.Security.Claims.ClaimsIdentity)">
+        <member name="M:Snowflake.Services.Modules.Users.UserManager.GetJwtToken(System.Security.Claims.ClaimsIdentity)">
             <summary>
             获取Token字符串
             </summary>
         </member>
-        <member name="M:Snowflake.Services.Implements.UserManager.Authorize(System.Security.Claims.ClaimsIdentity,System.Int64)">
+        <member name="M:Snowflake.Services.Modules.Users.UserManager.Authorize(System.Security.Claims.ClaimsIdentity,System.Int64)">
             <summary>
             授权认证
             </summary>
         </member>
-        <member name="M:Snowflake.Services.Implements.UserManager.RedisSetUser(Snowflake.Data.Entities.User)">
+        <member name="M:Snowflake.Services.Modules.Users.UserManager.RedisSetUser(Snowflake.Data.Entities.User)">
             <summary>
              创建用户缓存
             </summary>
         </member>
-        <member name="M:Snowflake.Services.Implements.UserManager.RedisRollBack(Snowflake.Data.Entities.User)">
+        <member name="M:Snowflake.Services.Modules.Users.UserManager.RedisRollBack(Snowflake.Data.Entities.User)">
             <summary>
             回滚Redis缓存
             </summary>
         </member>
-        <member name="M:Snowflake.Services.Implements.UserManager.GetClientIP(Microsoft.AspNetCore.Http.IHttpContextAccessor)">
+        <member name="M:Snowflake.Services.Modules.Users.UserManager.GetClientIP(Microsoft.AspNetCore.Http.IHttpContextAccessor)">
             <summary>
             获取客户端IP
             </summary>
             <returns></returns>
         </member>
-        <member name="M:Snowflake.Services.Implements.UserManager.GetHostUrl(Microsoft.AspNetCore.Http.IHttpContextAccessor,System.Boolean,System.Boolean)">
+        <member name="M:Snowflake.Services.Modules.Users.UserManager.GetHostUrl(Microsoft.AspNetCore.Http.IHttpContextAccessor,System.Boolean,System.Boolean)">
             <summary>
             获取当前网址
             </summary>

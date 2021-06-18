@@ -1,15 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "dSulM0y96x1S76H3yuTPDpD4PW/tg4K3xMtJlhyqJRjiJaIJOP7NHpsMSm+i/luxiSZpaLW3G9ypM0P/btcq/A==",
+  "dgSpecHash": "6Q0weqI3U6jTOInUDpV9sETvtF3rWcucWt3BL8ORnFF6yb/bPCoAZ6HJjYpKxljaFuCokZbm9rCjpKl3z4uouA==",
   "success": true,
   "projectFilePath": "/Users/wesley/Documents/GitHub/NETCore-Multilayer-Framework/Snowflake.Data/Snowflake.Data.csproj",
   "expectedPackageFiles": [
     "/Users/wesley/.nuget/packages/csrediscore/3.6.6/csrediscore.3.6.6.nupkg.sha512",
     "/Users/wesley/.nuget/packages/dapper/2.0.90/dapper.2.0.90.nupkg.sha512",
-    "/Users/wesley/.nuget/packages/microsoft.extensions.dependencyinjection/5.0.0/microsoft.extensions.dependencyinjection.5.0.0.nupkg.sha512",
     "/Users/wesley/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/5.0.0/microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512",
-    "/Users/wesley/.nuget/packages/microsoft.extensions.logging/5.0.0/microsoft.extensions.logging.5.0.0.nupkg.sha512",
-    "/Users/wesley/.nuget/packages/microsoft.extensions.logging.abstractions/5.0.0/microsoft.extensions.logging.abstractions.5.0.0.nupkg.sha512",
     "/Users/wesley/.nuget/packages/microsoft.extensions.options/5.0.0/microsoft.extensions.options.5.0.0.nupkg.sha512",
     "/Users/wesley/.nuget/packages/microsoft.extensions.primitives/5.0.0/microsoft.extensions.primitives.5.0.0.nupkg.sha512",
     "/Users/wesley/.nuget/packages/mysqlconnector/1.3.10/mysqlconnector.1.3.10.nupkg.sha512",

@@ -52,7 +52,7 @@ namespace Snowflake.Identity.Extenstions
                     //ValidIssuer = appSettings.Jwt.Issuer,
                     //ValidAudience = appSettings.Jwt.Audience,
                     ClockSkew = TimeSpan.FromMinutes(0),
-                    IssuerSigningKey = new SymmetricSecurityKey(Encoding.ASCII.GetBytes(appSettings.Jwt.Secret)),
+                    IssuerSigningKey = new SymmetricSecurityKey(Encoding.ASCII.GetBytes(appSettings.JwtToken.Secret)),
                 };
 
                 x.Events = new JwtBearerEvents()

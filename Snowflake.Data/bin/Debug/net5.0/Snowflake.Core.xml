@@ -4,18 +4,60 @@
         <name>Snowflake.Core</name>
     </assembly>
     <members>
-        <member name="M:Snowflake.Core.Extenstions.AutoMappingExtenstions.AddDenpendency(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+        <member name="T:Snowflake.Core.Configurations.AppSetting">
             <summary>
-            自动注入依赖关系
+            系统应用配置
             </summary>
         </member>
-        <member name="M:Snowflake.Core.Extenstions.AutoMappingExtenstions.IsGenericAssignableFrom(System.Type,System.Type)">
+        <member name="P:Snowflake.Core.Configurations.AppSetting.AppName">
             <summary>
-            检查范型类型匹配
+            应用名称配置
             </summary>
-            <param name="generic">范型接口</param>
-            <param name="type">范型类型</param>
-            <returns></returns>
+        </member>
+        <member name="P:Snowflake.Core.Configurations.AppSetting.CORS">
+            <summary>
+            允许跨域访问地址配置
+            </summary>
+        </member>
+        <member name="P:Snowflake.Core.Configurations.AppSetting.Redis">
+            <summary>
+            Redis配置
+            </summary>
+        </member>
+        <member name="P:Snowflake.Core.Configurations.AppSetting.JwtToken">
+            <summary>
+            JwtToken配置
+            </summary>
+        </member>
+        <member name="P:Snowflake.Core.Configurations.AppSetting.RabbitMQ">
+            <summary>
+            消息队列配置
+            </summary>
+        </member>
+        <member name="P:Snowflake.Core.Configurations.AppSetting.Database">
+            <summary>
+            数据库配置
+            </summary>
+        </member>
+        <member name="T:Snowflake.Core.Configurations.DatabaseSetting">
+            <summary>
+            数据库配置
+            </summary>
+        </member>
+        <member name="T:Snowflake.Core.Configurations.JwtTokenSetting">
+            <summary>
+            JwtToken配置
+            </summary>
+        </member>
+        <member name="T:Snowflake.Core.Configurations.RabbitmqSetting">
+            <summary>
+            消息队列配置
+            </summary>
+        </member>
+        <member name="T:Snowflake.Core.Configurations.RedisSetting">
+            <summary>
+            Redis配置
+            </summary>
         </member>
         <member name="P:Snowflake.Core.Responses.IResultObject.Status">
             <summary>

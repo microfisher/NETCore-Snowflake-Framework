@@ -19,6 +19,7 @@
     <None Remove="Swashbuckle.AspNetCore" />
     <None Remove="NLog.Web.AspNetCore" />
     <None Remove="Extenstions\" />
+    <None Remove="Scripts\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.1.4" />

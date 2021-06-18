@@ -14,14 +14,16 @@
     <Folder Include="Enums\" />
     <Folder Include="Models\" />
     <Folder Include="Middlewares\" />
-    <Folder Include="Implements\" />
+    <Folder Include="Modules\" />
+    <Folder Include="Modules\Users\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="5.0.7" />
   </ItemGroup>
   <ItemGroup>
     <None Remove="Middlewares\" />
-    <None Remove="Implements\" />
+    <None Remove="Modules\" />
+    <None Remove="Modules\Users\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Snowflake.Data\Snowflake.Data.csproj" />

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "7an6+8FoTBMgKXRSWIMsdYKC8Cap0dtW9kYTprfxDz7bBqfSRZK414z2QD3Jus2nc4YhwxVOnyvyV7vaB90mlg==",
+  "dgSpecHash": "bTD0JZWjY3q0k56y5XmZQPsRWcnHqmn+4ZrYCOrxKmQD4ZwwQnikPNKZRniKOfBsKWKWAHG0vSqu0DOrvun6/A==",
   "success": true,
   "projectFilePath": "/Users/wesley/Documents/GitHub/NETCore-Multilayer-Framework/Snowflake.Services/Snowflake.Services.csproj",
   "expectedPackageFiles": [
@@ -8,10 +8,7 @@
     "/Users/wesley/.nuget/packages/dapper/2.0.90/dapper.2.0.90.nupkg.sha512",
     "/Users/wesley/.nuget/packages/microsoft.aspnetcore.authentication.jwtbearer/5.0.7/microsoft.aspnetcore.authentication.jwtbearer.5.0.7.nupkg.sha512",
     "/usr/local/share/dotnet/sdk/NuGetFallbackFolder/microsoft.csharp/4.5.0/microsoft.csharp.4.5.0.nupkg.sha512",
-    "/Users/wesley/.nuget/packages/microsoft.extensions.dependencyinjection/5.0.0/microsoft.extensions.dependencyinjection.5.0.0.nupkg.sha512",
     "/Users/wesley/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/5.0.0/microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512",
-    "/Users/wesley/.nuget/packages/microsoft.extensions.logging/5.0.0/microsoft.extensions.logging.5.0.0.nupkg.sha512",
-    "/Users/wesley/.nuget/packages/microsoft.extensions.logging.abstractions/5.0.0/microsoft.extensions.logging.abstractions.5.0.0.nupkg.sha512",
     "/Users/wesley/.nuget/packages/microsoft.extensions.options/5.0.0/microsoft.extensions.options.5.0.0.nupkg.sha512",
     "/Users/wesley/.nuget/packages/microsoft.extensions.primitives/5.0.0/microsoft.extensions.primitives.5.0.0.nupkg.sha512",
     "/Users/wesley/.nuget/packages/microsoft.identitymodel.jsonwebtokens/6.7.1/microsoft.identitymodel.jsonwebtokens.6.7.1.nupkg.sha512",

@@ -11,11 +11,11 @@
 /Users/wesley/Documents/GitHub/NETCore-Multilayer-Framework/Microfisher.Snowflake.Core/obj/Debug/net5.0/Snowflake.Core.dll
 /Users/wesley/Documents/GitHub/NETCore-Multilayer-Framework/Microfisher.Snowflake.Core/obj/Debug/net5.0/ref/Snowflake.Core.dll
 /Users/wesley/Documents/GitHub/NETCore-Multilayer-Framework/Microfisher.Snowflake.Core/obj/Debug/net5.0/Snowflake.Core.pdb
+/Users/wesley/Documents/GitHub/NETCore-Multilayer-Framework/Snowflake.Core/bin/Debug/net5.0/Snowflake.Core.xml
 /Users/wesley/Documents/GitHub/NETCore-Multilayer-Framework/Snowflake.Core/bin/Debug/net5.0/Snowflake.Core.deps.json
 /Users/wesley/Documents/GitHub/NETCore-Multilayer-Framework/Snowflake.Core/bin/Debug/net5.0/Snowflake.Core.dll
 /Users/wesley/Documents/GitHub/NETCore-Multilayer-Framework/Snowflake.Core/bin/Debug/net5.0/ref/Snowflake.Core.dll
 /Users/wesley/Documents/GitHub/NETCore-Multilayer-Framework/Snowflake.Core/bin/Debug/net5.0/Snowflake.Core.pdb
-/Users/wesley/Documents/GitHub/NETCore-Multilayer-Framework/Snowflake.Core/obj/Debug/net5.0/Snowflake.Core.csproj.AssemblyReference.cache
 /Users/wesley/Documents/GitHub/NETCore-Multilayer-Framework/Snowflake.Core/obj/Debug/net5.0/Snowflake.Core.GeneratedMSBuildEditorConfig.editorconfig
 /Users/wesley/Documents/GitHub/NETCore-Multilayer-Framework/Snowflake.Core/obj/Debug/net5.0/Snowflake.Core.AssemblyInfoInputs.cache
 /Users/wesley/Documents/GitHub/NETCore-Multilayer-Framework/Snowflake.Core/obj/Debug/net5.0/Snowflake.Core.AssemblyInfo.cs
@@ -23,4 +23,3 @@
 /Users/wesley/Documents/GitHub/NETCore-Multilayer-Framework/Snowflake.Core/obj/Debug/net5.0/Snowflake.Core.dll
 /Users/wesley/Documents/GitHub/NETCore-Multilayer-Framework/Snowflake.Core/obj/Debug/net5.0/ref/Snowflake.Core.dll
 /Users/wesley/Documents/GitHub/NETCore-Multilayer-Framework/Snowflake.Core/obj/Debug/net5.0/Snowflake.Core.pdb
-/Users/wesley/Documents/GitHub/NETCore-Multilayer-Framework/Snowflake.Core/bin/Debug/net5.0/Snowflake.Core.xml

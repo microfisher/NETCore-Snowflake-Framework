@@ -355,9 +355,6 @@
       "Snowflake.Core/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
-        "dependencies": {
-          "Microsoft.Extensions.Logging": "5.0.0"
-        },
         "compile": {
           "bin/placeholder/Snowflake.Core.dll": {}
         },
@@ -371,6 +368,7 @@
         "dependencies": {
           "CSRedisCore": "3.6.6",
           "Dapper": "2.0.90",
+          "Microsoft.Extensions.Options": "5.0.0",
           "MySqlConnector": "1.3.10",
           "Snowflake.Core": "1.0.0"
         },

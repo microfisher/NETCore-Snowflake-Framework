@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Threading.Tasks;
 using Snowflake.Services.Dtos;
-using Snowflake.Services.Interfaces;
+using Snowflake.Services.Modules.Users;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
