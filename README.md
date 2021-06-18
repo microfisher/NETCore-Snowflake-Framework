@@ -17,9 +17,6 @@ Snowflake.Services ：业务层，封装项目业务核心逻辑。
 
 Snowflake.Identity ：接口层，提供给前端项目组调用。
 
-![截图](
-https://raw.githubusercontent.com/microfisher/NETCore-Multilayer-Framework/master/snapshot.png)
-
 ## 基本使用
 
 1.打开数据层下边的Schemes文件夹，在Mysql里新建Snowflake数据库并执行SQL文件。
