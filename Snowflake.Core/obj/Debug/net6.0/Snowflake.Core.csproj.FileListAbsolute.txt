@@ -1,0 +1,12 @@
+/Users/wesley/Documents/Ethereum/Developing/Carrot/Snowflake.Core/bin/Debug/net6.0/Snowflake.Core.deps.json
+/Users/wesley/Documents/Ethereum/Developing/Carrot/Snowflake.Core/bin/Debug/net6.0/Snowflake.Core.dll
+/Users/wesley/Documents/Ethereum/Developing/Carrot/Snowflake.Core/bin/Debug/net6.0/Snowflake.Core.pdb
+/Users/wesley/Documents/Ethereum/Developing/Carrot/Snowflake.Core/obj/Debug/net6.0/Snowflake.Core.csproj.AssemblyReference.cache
+/Users/wesley/Documents/Ethereum/Developing/Carrot/Snowflake.Core/obj/Debug/net6.0/Snowflake.Core.GeneratedMSBuildEditorConfig.editorconfig
+/Users/wesley/Documents/Ethereum/Developing/Carrot/Snowflake.Core/obj/Debug/net6.0/Snowflake.Core.AssemblyInfoInputs.cache
+/Users/wesley/Documents/Ethereum/Developing/Carrot/Snowflake.Core/obj/Debug/net6.0/Snowflake.Core.AssemblyInfo.cs
+/Users/wesley/Documents/Ethereum/Developing/Carrot/Snowflake.Core/obj/Debug/net6.0/Snowflake.Core.csproj.CoreCompileInputs.cache
+/Users/wesley/Documents/Ethereum/Developing/Carrot/Snowflake.Core/obj/Debug/net6.0/Snowflake.Core.dll
+/Users/wesley/Documents/Ethereum/Developing/Carrot/Snowflake.Core/obj/Debug/net6.0/refint/Snowflake.Core.dll
+/Users/wesley/Documents/Ethereum/Developing/Carrot/Snowflake.Core/obj/Debug/net6.0/Snowflake.Core.pdb
+/Users/wesley/Documents/Ethereum/Developing/Carrot/Snowflake.Core/obj/Debug/net6.0/ref/Snowflake.Core.dll

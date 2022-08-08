@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FuhY42SHj6ZLnjLZMb+/zL/5754X0ME22jXzQZo6gg5/tzJt9CoXM94PowUt9QLQLKX81EBajSpXy7EH/tiZeQ==",
+  "dgSpecHash": "YlNuY7WGYMDS9MBeG1VsBcJ+Uc7YxqFssHsrKxzrQB9jY9/6ra5feKS4hq6+qpox25FVJrw69lygmoBW8j6l5g==",
   "success": true,
-  "projectFilePath": "/Users/wesley/Documents/GitHub/NETCore-Multilayer-Framework/Snowflake.Core/Snowflake.Core.csproj",
+  "projectFilePath": "/Users/wesley/Documents/Ethereum/Developing/Carrot/Snowflake.Core/Snowflake.Core.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

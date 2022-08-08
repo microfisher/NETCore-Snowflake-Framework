@@ -1,51 +1,21 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net5.0</TargetFramework>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
   </PropertyGroup>
 
-  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <Optimize>false</Optimize>
-    <WarningLevel>4</WarningLevel>
-    <DocumentationFile>bin\Debug\net5.0\Snowflake.Services.xml</DocumentationFile>
-  </PropertyGroup>
-  <ItemGroup>
-    <Folder Include="Permissions\" />
-    <Folder Include="Enums\" />
-    <Folder Include="Models\" />
-    <Folder Include="Middlewares\" />
-    <Folder Include="Modules\" />
-    <Folder Include="Modules\Users\" />
-    <Folder Include="T4\" />
-  </ItemGroup>
-  <ItemGroup>
-    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="5.0.7" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Remove="Middlewares\" />
-    <None Remove="Modules\" />
-    <None Remove="Modules\Users\" />
-    <None Remove="T4\" />
-  </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Snowflake.Data\Snowflake.Data.csproj" />
+    <ProjectReference Include="..\Snowflake.Core\Snowflake.Core.csproj" />
   </ItemGroup>
   <ItemGroup>
-    <None Update="T4\Generator.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <LastGenOutput>ImplementGenerator.cs</LastGenOutput>
-    </None>
-    <None Update="T4\ImplementGenerator %28副本%29.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <LastGenOutput>InterfaceGenerator.cs</LastGenOutput>
-    </None>
+    <None Remove="Microsoft.AspNetCore.Authentication.JwtBearer" />
+    <None Remove="CSRedisCore" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Update="T4\InterfaceGenerator %28副本%29.cs">
-      <DependentUpon>InterfaceGenerator.tt</DependentUpon>
-    </Compile>
-    <Compile Update="T4\ImplementGenerator.cs">
-      <DependentUpon>ImplementGenerator.tt</DependentUpon>
-    </Compile>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="6.0.7" />
+    <PackageReference Include="CSRedisCore" Version="3.8.3" />
   </ItemGroup>
 </Project>

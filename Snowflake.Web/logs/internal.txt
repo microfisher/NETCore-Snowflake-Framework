@@ -1,0 +1,15 @@
+2022-08-08 19:06:20.6243 Info Message Template Auto Format enabled
+2022-08-08 19:06:20.7750 Info Loading assembly: NLog.Web.AspNetCore
+2022-08-08 19:06:20.8066 Info Adding target ConsoleTarget(Name=console)
+2022-08-08 19:06:20.8314 Info Adding target FileTarget(Name=file)
+2022-08-08 19:06:20.9746 Info Validating config: TargetNames=file, console, ConfigItems=27, FilePath=/Users/wesley/Documents/Ethereum/Developing/Carrot/Snowflake.Web/bin/Debug/net6.0/NLog.config
+2022-08-08 22:26:29.9976 Info Message Template Auto Format enabled
+2022-08-08 22:26:30.1546 Info Loading assembly: NLog.Web.AspNetCore
+2022-08-08 22:26:30.1858 Info Adding target ConsoleTarget(Name=console)
+2022-08-08 22:26:30.2124 Info Adding target FileTarget(Name=file)
+2022-08-08 22:26:30.3888 Info Validating config: TargetNames=file, console, ConfigItems=27, FilePath=/Users/wesley/Documents/Ethereum/Developing/Carrot/Snowflake.Web/bin/Debug/net6.0/NLog.config
+2022-08-08 22:28:38.8145 Info Message Template Auto Format enabled
+2022-08-08 22:28:38.9588 Info Loading assembly: NLog.Web.AspNetCore
+2022-08-08 22:28:38.9907 Info Adding target ConsoleTarget(Name=console)
+2022-08-08 22:28:39.0147 Info Adding target FileTarget(Name=file)
+2022-08-08 22:28:39.1903 Info Validating config: TargetNames=file, console, ConfigItems=27, FilePath=/Users/wesley/Documents/Ethereum/Developing/Carrot/Snowflake.Web/bin/Debug/net6.0/NLog.config

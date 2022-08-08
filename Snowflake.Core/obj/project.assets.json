@@ -1,11 +1,11 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {}
+    "net6.0": {}
   },
   "libraries": {},
   "projectFileDependencyGroups": {
-    "net5.0": []
+    "net6.0": []
   },
   "packageFolders": {
     "/Users/wesley/.nuget/packages/": {},
@@ -14,27 +14,27 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/wesley/Documents/GitHub/NETCore-Multilayer-Framework/Snowflake.Core/Snowflake.Core.csproj",
+      "projectUniqueName": "/Users/wesley/Documents/Ethereum/Developing/Carrot/Snowflake.Core/Snowflake.Core.csproj",
       "projectName": "Snowflake.Core",
-      "projectPath": "/Users/wesley/Documents/GitHub/NETCore-Multilayer-Framework/Snowflake.Core/Snowflake.Core.csproj",
+      "projectPath": "/Users/wesley/Documents/Ethereum/Developing/Carrot/Snowflake.Core/Snowflake.Core.csproj",
       "packagesPath": "/Users/wesley/.nuget/packages/",
-      "outputPath": "/Users/wesley/Documents/GitHub/NETCore-Multilayer-Framework/Snowflake.Core/obj/",
+      "outputPath": "/Users/wesley/Documents/Ethereum/Developing/Carrot/Snowflake.Core/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/Users/wesley/.config/NuGet/NuGet.Config"
+        "/Users/wesley/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
-        "net5.0"
+        "net6.0"
       ],
       "sources": {
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "projectReferences": {}
         }
       },
@@ -45,15 +45,16 @@
       }
     },
     "frameworks": {
-      "net5.0": {
-        "targetAlias": "net5.0",
+      "net6.0": {
+        "targetAlias": "net6.0",
         "imports": [
           "net461",
           "net462",
           "net47",
           "net471",
           "net472",
-          "net48"
+          "net48",
+          "net481"
         ],
         "assetTargetFallback": true,
         "warn": true,
@@ -62,7 +63,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.301/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.400-preview.22330.6/RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "VOneGi0BQS3TZVNCtv8XrRIb+VKLNp6Fv650u9Jf2tQ=",
+  "Source": "Snowflake.Web",
+  "BasePath": "_content/Snowflake.Web",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

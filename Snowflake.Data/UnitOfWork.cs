@@ -7,7 +7,8 @@ using Dapper;
 using Snowflake.Core.Configurations;
 using Snowflake.Data.Repositories;
 using Microsoft.Extensions.Options;
-using MySqlConnector;
+using MySql.Data;
+using MySql.Data.MySqlClient;
 
 namespace Snowflake.Data
 {

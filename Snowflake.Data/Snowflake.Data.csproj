@@ -1,37 +1,20 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net5.0</TargetFramework>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
   </PropertyGroup>
 
-  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <Optimize>false</Optimize>
-    <WarningLevel>4</WarningLevel>
-    <DocumentationFile>bin\Debug\net5.0\Snowflake.Data.xml</DocumentationFile>
-  </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Dapper" Version="2.0.90" />
-    <PackageReference Include="CSRedisCore" Version="3.6.6" />
-    <PackageReference Include="MySqlConnector" Version="1.3.10" />
-    <PackageReference Include="Microsoft.Extensions.Options" Version="5.0.0" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Remove="Schemes\identity.struct.sql" />
-    <None Remove="CSRedisCore" />
-    <None Remove="MySqlConnector" />
-    <None Remove="Interfaces\" />
+    <None Remove="MySql.Data" />
+    <None Remove="Dapper" />
     <None Remove="Microsoft.Extensions.Options" />
-    <None Remove="Modules\" />
-    <None Remove="Modules\Settings\" />
-    <None Remove="Modules\Orders\" />
-    <None Remove="Modules\Users\" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Repositories\" />
-    <Folder Include="Modules\" />
-    <Folder Include="Modules\Settings\" />
-    <Folder Include="Modules\Orders\" />
-    <Folder Include="Modules\Users\" />
+    <PackageReference Include="MySql.Data" Version="8.0.30" />
+    <PackageReference Include="Dapper" Version="2.0.123" />
+    <PackageReference Include="Microsoft.Extensions.Options" Version="6.0.0" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Snowflake.Core\Snowflake.Core.csproj" />

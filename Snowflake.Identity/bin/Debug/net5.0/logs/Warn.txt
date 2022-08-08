@@ -1,4 +1,0 @@
-2021-06-17 16:16:53.1735 WARN http://localhost/v1/Identity/account 系统接口：/v1/Identity/account耗时(8269ms) 
-
-2021-06-17 16:17:14.0272 WARN http://localhost/v1/Identity/account 系统接口：/v1/Identity/account耗时(2472ms) 
-
