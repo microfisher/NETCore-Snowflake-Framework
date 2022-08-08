@@ -7,6 +7,7 @@
 .vs/Snowflake/xs/sqlite3/storage.ide
 .vs/Snowflake/xs/sqlite3/storage.ide-shm
 .vs/Snowflake/xs/sqlite3/storage.ide-wal
+.vs/
 Microfisher.Snowflake.Web/bin/Debug/netcoreapp3.1/appsettings.Development.json
 Microfisher.Snowflake.Web/bin/Debug/netcoreapp3.1/appsettings.json
 Microfisher.Snowflake.Web/bin/Debug/netcoreapp3.1/CSRedisCore.dll
